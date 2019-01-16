@@ -82,7 +82,7 @@ body {
     }
 }
 .sidebar {
-    width: 20%;
+    width: 200px;
     height: 100%;
     background-color:#191919;
     position: fixed;
@@ -105,5 +105,47 @@ body {
         background-color: white;
         margin: 4px;
     }
+    ul {
+        list-style-type: none;
+        padding-left: 0px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #333333;
+        li {
+            padding-left: 20px;
+            &:hover {
+                background-color: #696c72
+            }
+        }
+        a {
+            font-size: 14px;
+            font-family: "Roboto";
+            color: #999999;
+            line-height: 50px;
+            text-decoration: none;
+        }
+    }
+    .logo {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .linkimg {
+        width: 20px;
+        height: 20px;
+    }
+    .meneger {
+        p {
+        font-size: 14px;
+        font-family: "Roboto";
+        color: #999999;
+        padding-left: 20px;
+        }
+        .avatar {
+           display: flex;
+           padding-left: 20px;
+           
+           p {
+               padding-left: 15px;
+           }
+        }
+    }
 }
-
