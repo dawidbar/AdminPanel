@@ -405,6 +405,12 @@ template {
   margin: 0 auto;
 }
 
+.container-fluid {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 body {
   background-color: #F3F3F0;
 }
@@ -549,6 +555,7 @@ body {
 
 .sidebar ul li:hover {
   background-color: #696c72;
+  border-left: 4px solid orange;
 }
 
 .sidebar ul a {
@@ -584,5 +591,52 @@ body {
 
 .sidebar .meneger .avatar p {
   padding-left: 15px;
+}
+
+.general-statistic {
+  margin-left: 300px;
+  margin-right: 70px;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.general-statistic .general-title {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #ACACAC;
+  padding: 20px;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.general-statistic .calendar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.general-statistic .calendar .date {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.general-statistic .calendar .date-button {
+  border-radius: 3px;
+  border: 2px solid #f58220;
+  background-color: #f58220;
+  width: 40px;
+  height: 40px;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.general-statistic .calendar .date-button .refresh {
+  width: 20px;
 }
 /*# sourceMappingURL=style.css.map */

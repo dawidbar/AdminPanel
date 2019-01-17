@@ -113,7 +113,8 @@ body {
         li {
             padding-left: 20px;
             &:hover {
-                background-color: #696c72
+                background-color: #696c72;
+                border-left: 4px solid orange;
             }
         }
         a {
@@ -149,3 +150,43 @@ body {
         }
     }
 }
+.general-statistic {
+    margin-left: 300px;
+    margin-right: 70px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px rgba($color: #000000, $alpha: 0.2);
+    .general-title {
+        font-size: 16px;
+        font-family: "Roboto";
+        color: #ACACAC;
+        padding: 20px;
+        border-bottom: 1px solid #E3E3E3;
+    }
+    .calendar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #E3E3E3;
+        .date {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .date-button {
+            border-radius: 3px;
+            border : 2px solid rgb(245, 130, 32);
+            background-color: rgb(245, 130, 32);
+            width: 40px;
+            height: 40px;
+            display: flex;
+            margin-left: 20px;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            .refresh {
+                width: 20px;
+            }
+        }
+
+    }
+}
+
+  
