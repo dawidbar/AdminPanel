@@ -423,11 +423,6 @@ body {
   border-bottom: 1px solid #E3E3E3;
 }
 
-.topbar img {
-  width: 20px;
-  height: 20px;
-}
-
 .topbar .logout {
   border-right: 1px solid #E3E3E3;
   height: 100%;
@@ -441,7 +436,10 @@ body {
 }
 
 .topbar .logout .quit {
+  width: 20px;
+  height: 20px;
   margin: 20px;
+  fill: #9B9B9B;
 }
 
 .topbar .user {
@@ -461,11 +459,14 @@ body {
   margin-left: 5px;
   font-size: 13px;
   font-family: "Roboto";
-  color: #56819f;
+  color: #83a3b9;
 }
 
 .topbar .user .profile {
+  width: 20px;
+  height: 20px;
   margin-left: 20px;
+  fill: #9B9B9B;
 }
 
 .topbar .notification {
@@ -481,7 +482,10 @@ body {
 }
 
 .topbar .notification .bell {
+  width: 20px;
+  height: 20px;
   margin: 20px;
+  fill: #9B9B9B;
 }
 
 .topbar .money {
@@ -500,6 +504,7 @@ body {
 .topbar .money .arrow {
   margin-right: 20px;
   height: 10px;
+  fill: #9B9B9B;
   width: 10px;
 }
 
@@ -511,7 +516,12 @@ body {
 }
 
 .topbar .money .wallet {
+  width: 20px;
+  height: 20px;
   margin-left: 20px;
+  fill: #9B9B9B;
+  position: relative;
+  bottom: 2px;
 }
 
 .sidebar {
@@ -519,6 +529,7 @@ body {
   height: 100%;
   background-color: #191919;
   position: fixed;
+  top: 0;
 }
 
 .sidebar .navbutton {
@@ -555,7 +566,15 @@ body {
 
 .sidebar ul li:hover {
   background-color: #696c72;
-  border-left: 4px solid orange;
+  border-left: 4px solid #F58220;
+}
+
+.sidebar ul li:hover a {
+  color: #fff;
+}
+
+.sidebar ul li:hover .linkimg {
+  fill: #fff;
 }
 
 .sidebar ul a {
@@ -564,6 +583,7 @@ body {
   color: #999999;
   line-height: 50px;
   text-decoration: none;
+  padding-left: 5px;
 }
 
 .sidebar .logo {
@@ -574,12 +594,23 @@ body {
 .sidebar .linkimg {
   width: 20px;
   height: 20px;
+  fill: #818181;
+  position: relative;
+  top: 4px;
 }
 
-.sidebar .meneger p {
+.sidebar .meneger h1 {
   font-size: 14px;
   font-family: "Roboto";
   color: #999999;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar .meneger P {
+  color: #83a3b9;
+  font-size: 14px;
+  font-family: "Roboto";
   padding-left: 20px;
 }
 
@@ -636,7 +667,14 @@ body {
   margin-top: 50px;
 }
 
+.general-statistic .calendar .date-button:hover {
+  border: 2px solid #ffa200;
+  background-color: #ffa200;
+}
+
 .general-statistic .calendar .date-button .refresh {
   width: 20px;
+  height: 20px;
+  fill: #fff;
 }
 /*# sourceMappingURL=style.css.map */
