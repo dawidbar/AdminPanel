@@ -195,9 +195,24 @@ body {
         align-items: center;
         justify-content: center;
         border-bottom: 1px solid #E3E3E3;
-        .date {
-            margin-top: 50px;
-            margin-bottom: 50px;
+        .date-period {
+            border: 1px solid #e3e3e3;
+            padding: 7px;
+            input {
+                border: none;
+                text-align: center;
+                width: 150px;
+                font-family: "Roboto";
+                &:nth-of-type(2) {
+                    border-left: 1px solid #e3e3e3;
+                }
+            }
+            .calendaricon {
+                width: 12px;
+                height: 12px;
+                fill: #9c9c9c;
+                margin-right: 5px;
+            }
         }
         .date-button {
             border-radius: 3px;
@@ -221,6 +236,27 @@ body {
         }
 
     }
+    .general-stat-col {
+        h2 {
+            font-size: 16px;
+            font-family: "Roboto";
+            color: rgb(166, 166, 166);
+            margin-bottom: 5px;
+        }
+        p {
+            font-size: 16px;
+            font-family: "Roboto";
+            color: rgb(51, 51, 51);    
+            margin-bottom: 5px;
+        }
+        .header {
+            display: inline-flex;
+            border-bottom: 1px solid #E3E3E3;
+        }
+    }
 }
-
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
   
