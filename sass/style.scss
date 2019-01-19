@@ -254,9 +254,118 @@ body {
             border-bottom: 1px solid #E3E3E3;
         }
     }
+    .earnings {
+        text-align: center;
+        .earnings-header {
+            font-size: 16px;
+            font-family: "Roboto";
+            color: rgb(166, 166, 166);
+            margin-top: 70px;
+            text-align: left;
+        }
+        .signups {
+            display: inline-flex;
+            padding: 10px;
+            margin-top: 30px;
+            margin-right: 50px;
+            &:nth-of-type(3) {
+                margin-right: 0;
+            }
+            .blue-dot {
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: #80bfca;
+            }
+            .orange-dot {
+                @extend .blue-dot;
+                background-color: #FF9A38;
+            }
+            .green-dot {
+                @extend .blue-dot;
+                background-color: #59B66D;
+            }
+            .signups-p {
+                font-size: 16px;
+                font-family: "Roboto";
+                color: rgb(166, 166, 166);
+                margin: 2px 0;
+                padding-left: 10px;
+            }
+            &:hover {
+                background-color: #f3f3f1;
+                cursor: pointer;
+            }
+        }
+        .graph {
+            margin: 50px 0;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+.links {
+    @extend .general-statistic;
+    .links-title {
+        @extend .general-title;
+    }
+    .add-new {
+        border-radius: 3px;
+        background-color: rgb(245, 130, 32);
+        border : 2px solid rgb(245, 130, 32);
+        padding: 10px;
+        font-size: 18px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);   
+        display: flex;
+        margin: 50px auto;
+        &:hover {
+            background-color: #ffa200;
+            border : 2px solid #ffa200;
+        }
+    }    
+    table caption {
+        padding: .5em 0;
+    }
+      
+    table tfoot tr td {
+        text-align: center !important;
+    }
+    @media (max-width: 39.9375em) {
+        .tablesaw-stack tbody tr:not(:last-child) {
+          border-bottom: 2px solid #0B0B0D;
+        }
+    }
+    .sitename {
+        font-size: 16px;
+        font-family: "Roboto";
+        font-weight: 700;
+        color: rgb(166, 166, 166);
+    }
+    .linkname {
+        font-size: 16px;
+        font-family: "Roboto";
+        color: rgb(86, 129, 159);  
+        padding-left: 200px;      
+    }
+    .icons {
+        .link {
+            width: 20px;
+            height: 20px;
+            position: relative;
+            fill: #F5882B;
+        }
+        .trash {
+            @extend .link;
+            margin-left: 10px;
+            bottom: 2px;
+            fill: #9B9B9B;
+        }
+    }
 }
 .row {
     display: flex;
     flex-wrap: wrap;
 }
+
   
