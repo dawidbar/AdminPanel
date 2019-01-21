@@ -1,0 +1,77 @@
+/* Colors */
+/* Font sizes */
+/* Fonts */
+.links {
+  margin-left: 300px;
+  margin-right: 70px;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.links .links-title {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #ACACAC;
+  padding: 20px;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.links .add-new {
+  border-radius: 3px;
+  background-color: #f58220;
+  border: 2px solid #f58220;
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  display: flex;
+  margin: 50px auto;
+}
+
+.links .add-new:hover {
+  background-color: #ffa200;
+  border: 2px solid #ffa200;
+}
+
+.links table caption {
+  padding: .5em 0;
+}
+
+.links table tfoot tr td {
+  text-align: center !important;
+}
+
+@media (max-width: 39.9375em) {
+  .links .tablesaw-stack tbody tr:not(:last-child) {
+    border-bottom: 2px solid #0B0B0D;
+  }
+}
+
+.links .sitename {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #a6a6a6;
+}
+
+.links .linkname {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #56819f;
+  padding-left: 200px;
+}
+
+.links .icons .link, .links .icons .trash {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  fill: #F5882B;
+}
+
+.links .icons .trash {
+  margin-left: 10px;
+  bottom: 2px;
+  fill: #9B9B9B;
+}
+
+/*# sourceMappingURL=links.css.map */

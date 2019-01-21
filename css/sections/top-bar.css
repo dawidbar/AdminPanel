@@ -1,0 +1,101 @@
+/* Colors */
+/* Font sizes */
+/* Fonts */
+.topbar {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  border-top: 1px solid #E3E3E3;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.topbar .logout {
+  border-right: 1px solid #E3E3E3;
+  height: 100%;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topbar .logout .quit {
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+  fill: #9B9B9B;
+}
+
+.topbar .user {
+  border-right: 1px solid #E3E3E3;
+  height: 100%;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topbar .user .user-name {
+  margin-right: 20px;
+  margin-left: 5px;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  color: #83a3b9;
+}
+
+.topbar .user .profile {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  fill: #9B9B9B;
+}
+
+.topbar .notification {
+  border-right: 1px solid #E3E3E3;
+  height: 100%;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topbar .notification .bell {
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+  fill: #9B9B9B;
+}
+
+.topbar .money {
+  border-right: 1px solid #E3E3E3;
+  border-left: 1px solid #E3E3E3;
+  height: 100%;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topbar .money .arrow {
+  margin-right: 20px;
+  height: 10px;
+  fill: #9B9B9B;
+  width: 10px;
+}
+
+.topbar .money .cash {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #9c9c9c;
+  margin: 10px;
+}
+
+.topbar .money .wallet {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  fill: #9B9B9B;
+  position: relative;
+  bottom: 2px;
+}
+
+/*# sourceMappingURL=top-bar.css.map */

@@ -687,6 +687,9 @@ template {
       flex-wrap: wrap;
 }
 
+/* Colors */
+/* Font sizes */
+/* Fonts */
 .topbar {
   width: 100%;
   height: 50px;
@@ -730,7 +733,7 @@ template {
   margin-right: 20px;
   margin-left: 5px;
   font-size: 13px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #83a3b9;
 }
 
@@ -782,7 +785,7 @@ template {
 
 .topbar .money .cash {
   font-size: 20px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #9c9c9c;
   margin: 10px;
 }
@@ -796,6 +799,9 @@ template {
   bottom: 2px;
 }
 
+/* Colors */
+/* Font sizes */
+/* Fonts */
 .sidebar {
   width: 200px;
   height: 100%;
@@ -851,7 +857,7 @@ template {
 
 .sidebar ul a {
   font-size: 14px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #999999;
   line-height: 50px;
   text-decoration: none;
@@ -873,7 +879,7 @@ template {
 
 .sidebar .meneger h1 {
   font-size: 14px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #999999;
   padding-left: 20px;
   margin-bottom: 20px;
@@ -882,7 +888,7 @@ template {
 .sidebar .meneger P {
   color: #83a3b9;
   font-size: 14px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   padding-left: 20px;
 }
 
@@ -896,22 +902,25 @@ template {
   padding-left: 15px;
 }
 
-.general-statistic, .links {
+/* Colors */
+/* Font sizes */
+/* Fonts */
+.general-statistic {
   margin-left: 300px;
   margin-right: 70px;
   background-color: #fff;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-.general-statistic .general-title, .links .general-title, .links .links-title {
+.general-statistic .general-title {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #ACACAC;
   padding: 20px;
   border-bottom: 1px solid #E3E3E3;
 }
 
-.general-statistic .calendar, .links .calendar {
+.general-statistic .calendar {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -921,30 +930,30 @@ template {
   border-bottom: 1px solid #E3E3E3;
 }
 
-.general-statistic .calendar .date-period, .links .calendar .date-period {
-  border: 1px solid #e3e3e3;
+.general-statistic .calendar .date-period {
+  border: 1px solid #E3E3E3;
   padding: 7px;
 }
 
-.general-statistic .calendar .date-period input, .links .calendar .date-period input {
+.general-statistic .calendar .date-period input {
   border: none;
   text-align: center;
   width: 150px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
-.general-statistic .calendar .date-period input:nth-of-type(2), .links .calendar .date-period input:nth-of-type(2) {
-  border-left: 1px solid #e3e3e3;
+.general-statistic .calendar .date-period input:nth-of-type(2) {
+  border-left: 1px solid #E3E3E3;
 }
 
-.general-statistic .calendar .date-period .calendaricon, .links .calendar .date-period .calendaricon {
+.general-statistic .calendar .date-period .calendaricon {
   width: 12px;
   height: 12px;
   fill: #9c9c9c;
   margin-right: 5px;
 }
 
-.general-statistic .calendar .date-button, .links .calendar .date-button {
+.general-statistic .calendar .date-button {
   border-radius: 3px;
   border: 2px solid #f58220;
   background-color: #f58220;
@@ -957,50 +966,50 @@ template {
   margin-top: 50px;
 }
 
-.general-statistic .calendar .date-button:hover, .links .calendar .date-button:hover {
+.general-statistic .calendar .date-button:hover {
   border: 2px solid #ffa200;
   background-color: #ffa200;
 }
 
-.general-statistic .calendar .date-button .refresh, .links .calendar .date-button .refresh {
+.general-statistic .calendar .date-button .refresh {
   width: 20px;
   height: 20px;
   fill: #fff;
 }
 
-.general-statistic .general-stat-col h2, .links .general-stat-col h2 {
+.general-statistic .general-stat-col h2 {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #a6a6a6;
   margin-bottom: 5px;
 }
 
-.general-statistic .general-stat-col p, .links .general-stat-col p {
+.general-statistic .general-stat-col p {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #333333;
   margin-bottom: 5px;
 }
 
-.general-statistic .general-stat-col .header, .links .general-stat-col .header {
+.general-statistic .general-stat-col .header {
   display: -ms-inline-flexbox;
   display: inline-flex;
   border-bottom: 1px solid #E3E3E3;
 }
 
-.general-statistic .earnings, .links .earnings {
+.general-statistic .earnings {
   text-align: center;
 }
 
-.general-statistic .earnings .earnings-header, .links .earnings .earnings-header {
+.general-statistic .earnings .earnings-header {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #a6a6a6;
   margin-top: 70px;
   text-align: left;
 }
 
-.general-statistic .earnings .signups, .links .earnings .signups {
+.general-statistic .earnings .signups {
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding: 10px;
@@ -1008,42 +1017,60 @@ template {
   margin-right: 50px;
 }
 
-.general-statistic .earnings .signups:nth-of-type(3), .links .earnings .signups:nth-of-type(3) {
+.general-statistic .earnings .signups:nth-of-type(3) {
   margin-right: 0;
 }
 
-.general-statistic .earnings .signups .blue-dot, .links .earnings .signups .blue-dot, .general-statistic .earnings .signups .orange-dot, .links .earnings .signups .orange-dot, .general-statistic .earnings .signups .green-dot, .links .earnings .signups .green-dot {
+.general-statistic .earnings .signups .blue-dot, .general-statistic .earnings .signups .orange-dot, .general-statistic .earnings .signups .green-dot {
   width: 20px;
   height: 20px;
   border-radius: 50%;
   background-color: #80bfca;
 }
 
-.general-statistic .earnings .signups .orange-dot, .links .earnings .signups .orange-dot {
+.general-statistic .earnings .signups .orange-dot {
   background-color: #FF9A38;
 }
 
-.general-statistic .earnings .signups .green-dot, .links .earnings .signups .green-dot {
+.general-statistic .earnings .signups .green-dot {
   background-color: #59B66D;
 }
 
-.general-statistic .earnings .signups .signups-p, .links .earnings .signups .signups-p {
+.general-statistic .earnings .signups .signups-p {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #a6a6a6;
   margin: 2px 0;
   padding-left: 10px;
 }
 
-.general-statistic .earnings .signups:hover, .links .earnings .signups:hover {
+.general-statistic .earnings .signups:hover {
   background-color: #f3f3f1;
   cursor: pointer;
 }
 
-.general-statistic .earnings .graph, .links .earnings .graph {
+.general-statistic .earnings .graph {
   margin: 50px 0;
   max-width: 100%;
   height: auto;
+}
+
+/* Colors */
+/* Font sizes */
+/* Fonts */
+.links {
+  margin-left: 300px;
+  margin-right: 70px;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.links .links-title {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #ACACAC;
+  padding: 20px;
+  border-bottom: 1px solid #E3E3E3;
 }
 
 .links .add-new {
@@ -1052,7 +1079,7 @@ template {
   border: 2px solid #f58220;
   padding: 10px;
   font-size: 18px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: white;
   display: -ms-flexbox;
   display: flex;
@@ -1080,14 +1107,14 @@ template {
 
 .links .sitename {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #a6a6a6;
 }
 
 .links .linkname {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #56819f;
   padding-left: 200px;
 }

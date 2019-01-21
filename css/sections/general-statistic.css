@@ -1,3 +1,6 @@
+/* Colors */
+/* Font sizes */
+/* Fonts */
 .general-statistic {
   margin-left: 300px;
   margin-right: 70px;
@@ -7,7 +10,7 @@
 
 .general-statistic .general-title {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #ACACAC;
   padding: 20px;
   border-bottom: 1px solid #E3E3E3;
@@ -21,7 +24,7 @@
 }
 
 .general-statistic .calendar .date-period {
-  border: 1px solid #e3e3e3;
+  border: 1px solid #E3E3E3;
   padding: 7px;
 }
 
@@ -29,11 +32,11 @@
   border: none;
   text-align: center;
   width: 150px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 .general-statistic .calendar .date-period input:nth-of-type(2) {
-  border-left: 1px solid #e3e3e3;
+  border-left: 1px solid #E3E3E3;
 }
 
 .general-statistic .calendar .date-period .calendaricon {
@@ -68,14 +71,14 @@
 
 .general-statistic .general-stat-col h2 {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #a6a6a6;
   margin-bottom: 5px;
 }
 
 .general-statistic .general-stat-col p {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #333333;
   margin-bottom: 5px;
 }
@@ -91,7 +94,7 @@
 
 .general-statistic .earnings .earnings-header {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #a6a6a6;
   margin-top: 70px;
   text-align: left;
@@ -125,7 +128,7 @@
 
 .general-statistic .earnings .signups .signups-p {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #a6a6a6;
   margin: 2px 0;
   padding-left: 10px;

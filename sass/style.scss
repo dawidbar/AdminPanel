@@ -1,11 +1,13 @@
-@import "variables";
-@import "mixins";
-@import "normalize";
-@import "layout";
-@import "top-bar";
-@import "side-bar";
-@import "general-statistic";
-@import "links";
+@import "sass/variables";
+@import "sass/mixins";
+@import "sass/normalize";
+@import "sass/layout";
+@import "sass/sections/top-bar";
+@import "sass/sections/side-bar";
+@import "sass/sections/general-statistic";
+@import "sass/sections/links";
+@import "sass/pages/links-page";
+@import "sass/pages/banners";
 body {
     background-color: #F3F3F0;
 }
@@ -13,5 +15,3 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-
-  

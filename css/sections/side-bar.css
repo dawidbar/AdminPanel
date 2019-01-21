@@ -1,0 +1,103 @@
+/* Colors */
+/* Font sizes */
+/* Fonts */
+.sidebar {
+  width: 200px;
+  height: 100%;
+  background-color: #191919;
+  position: fixed;
+  top: 0;
+}
+
+.sidebar .navbutton {
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.sidebar .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: white;
+  margin: 4px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333333;
+}
+
+.sidebar ul li {
+  padding-left: 20px;
+}
+
+.sidebar ul li:hover {
+  background-color: #696c72;
+  border-left: 4px solid #F58220;
+}
+
+.sidebar ul li:hover a {
+  color: #fff;
+}
+
+.sidebar ul li:hover .linkimg {
+  fill: #fff;
+}
+
+.sidebar ul a {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #999999;
+  line-height: 50px;
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+.sidebar .logo {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.sidebar .linkimg {
+  width: 20px;
+  height: 20px;
+  fill: #818181;
+  position: relative;
+  top: 4px;
+}
+
+.sidebar .meneger h1 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #999999;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar .meneger P {
+  color: #83a3b9;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 20px;
+}
+
+.sidebar .meneger .avatar {
+  display: flex;
+  padding-left: 20px;
+}
+
+.sidebar .meneger .avatar p {
+  padding-left: 15px;
+}
+
+/*# sourceMappingURL=side-bar.css.map */
