@@ -1,0 +1,59 @@
+.links {
+    @extend .general-statistic;
+    .links-title {
+        @extend .general-title;
+    }
+    .add-new {
+        border-radius: 3px;
+        background-color: $button-orange;
+        border : 2px solid $button-orange;
+        padding: 10px;
+        font-size: 18px;
+        font-family: $main-font;
+        color: rgb(255, 255, 255);   
+        display: flex;
+        margin: 50px auto;
+        &:hover {
+            background-color: $button-hover-orange;
+            border : 2px solid $button-hover-orange;
+        }
+    }    
+    table caption {
+        padding: .5em 0;
+    }
+      
+    table tfoot tr td {
+        text-align: center !important;
+    }
+    @media (max-width: 39.9375em) {
+        .tablesaw-stack tbody tr:not(:last-child) {
+          border-bottom: 2px solid #0B0B0D;
+        }
+    }
+    .sitename {
+        font-size: 16px;
+        font-family: $main-font;
+        font-weight: 700;
+        color: rgb(166, 166, 166);
+    }
+    .linkname {
+        font-size: 16px;
+        font-family: $main-font;
+        color: rgb(86, 129, 159);  
+        padding-left: 200px;      
+    }
+    .icons {
+        .link {
+            width: 20px;
+            height: 20px;
+            position: relative;
+            fill: #F5882B;
+        }
+        .trash {
+            @extend .link;
+            margin-left: 10px;
+            bottom: 2px;
+            fill: #9B9B9B;
+        }
+    }
+}

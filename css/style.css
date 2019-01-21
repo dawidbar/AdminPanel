@@ -687,10 +687,6 @@ template {
       flex-wrap: wrap;
 }
 
-body {
-  background-color: #F3F3F0;
-}
-
 .topbar {
   width: 100%;
   height: 50px;
@@ -1107,6 +1103,10 @@ body {
   margin-left: 10px;
   bottom: 2px;
   fill: #9B9B9B;
+}
+
+body {
+  background-color: #F3F3F0;
 }
 
 .row {
