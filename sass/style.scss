@@ -8,9 +8,11 @@
 @import "sass/sections/links";
 @import "sass/pages/links-page";
 @import "sass/pages/banners";
+
 body {
     background-color: #F3F3F0;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;

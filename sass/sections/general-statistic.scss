@@ -1,9 +1,11 @@
 @import 'sass/variables';
+
 .general-statistic {
     margin-left: 300px;
     margin-right: 70px;
     background-color: #fff;
     box-shadow: 1px 1px 1px rgba($color: #000000, $alpha: 0.2);
+
     .general-title {
         font-size: 16px;
         font-family: $main-font;
@@ -11,23 +13,28 @@
         padding: 20px;
         border-bottom: 1px solid $border-line;
     }
+
     .calendar {
         display: flex;
         align-items: center;
         justify-content: center;
         border-bottom: 1px solid $border-line;
+
         .date-period {
             border: 1px solid $border-line;
             padding: 7px;
+
             input {
                 border: none;
                 text-align: center;
                 width: 150px;
                 font-family: $main-font;
+
                 &:nth-of-type(2) {
                     border-left: 1px solid $border-line;
                 }
             }
+
             .calendaricon {
                 width: 12px;
                 height: 12px;
@@ -35,9 +42,10 @@
                 margin-right: 5px;
             }
         }
+
         .date-button {
             border-radius: 3px;
-            border : 2px solid rgb(245, 130, 32);
+            border: 2px solid rgb(245, 130, 32);
             background-color: rgb(245, 130, 32);
             width: 40px;
             height: 40px;
@@ -45,10 +53,12 @@
             margin-left: 20px;
             margin-bottom: 50px;
             margin-top: 50px;
+
             &:hover {
-                border : 2px solid #ffa200;
+                border: 2px solid #ffa200;
                 background-color: #ffa200;
             }
+
             .refresh {
                 width: 20px;
                 height: 20px;
@@ -57,6 +67,7 @@
         }
 
     }
+
     .general-stat-col {
         h2 {
             font-size: 16px;
@@ -64,19 +75,23 @@
             color: rgb(166, 166, 166);
             margin-bottom: 5px;
         }
+
         p {
             font-size: 16px;
             font-family: $main-font;
-            color: rgb(51, 51, 51);    
+            color: rgb(51, 51, 51);
             margin-bottom: 5px;
         }
+
         .header {
             display: inline-flex;
             border-bottom: 1px solid $border-line;
         }
     }
+
     .earnings {
         text-align: center;
+
         .earnings-header {
             font-size: 16px;
             font-family: $main-font;
@@ -84,28 +99,34 @@
             margin-top: 70px;
             text-align: left;
         }
+
         .signups {
             display: inline-flex;
             padding: 10px;
             margin-top: 30px;
             margin-right: 50px;
+
             &:nth-of-type(3) {
                 margin-right: 0;
             }
+
             .blue-dot {
                 width: 20px;
                 height: 20px;
                 border-radius: 50%;
                 background-color: #80bfca;
             }
+
             .orange-dot {
                 @extend .blue-dot;
                 background-color: #FF9A38;
             }
+
             .green-dot {
                 @extend .blue-dot;
                 background-color: #59B66D;
             }
+
             .signups-p {
                 font-size: 16px;
                 font-family: $main-font;
@@ -113,11 +134,13 @@
                 margin: 2px 0;
                 padding-left: 10px;
             }
+
             &:hover {
                 background-color: #f3f3f1;
                 cursor: pointer;
             }
         }
+
         .graph {
             margin: 50px 0;
             max-width: 100%;
