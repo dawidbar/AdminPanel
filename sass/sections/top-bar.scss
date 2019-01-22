@@ -6,7 +6,6 @@
     background-color: $white;
     border-top: 1px solid $border-line;
     border-bottom: 1px solid $border-line;
-
     .logout {
         border-right: 1px solid $border-line;
         height: 100%;
@@ -14,7 +13,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
         .quit {
             width: 20px;
             height: 20px;
@@ -22,7 +20,6 @@
             fill: #9B9B9B;
         }
     }
-
     .user {
         border-right: 1px solid $border-line;
         height: 100%;
@@ -30,7 +27,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
         .user-name {
             margin-right: 20px;
             margin-left: 5px;
@@ -38,7 +34,6 @@
             font-family: $main-font;
             color: #83a3b9;
         }
-
         .profile {
             width: 20px;
             height: 20px;
@@ -46,7 +41,6 @@
             fill: #9B9B9B;
         }
     }
-
     .notification {
         border-right: 1px solid $border-line;
         height: 100%;
@@ -54,7 +48,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
         .bell {
             width: 20px;
             height: 20px;
@@ -62,7 +55,6 @@
             fill: #9B9B9B;
         }
     }
-
     .money {
         border-right: 1px solid $border-line;
         border-left: 1px solid $border-line;
@@ -71,21 +63,18 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
         .arrow {
             margin-right: 20px;
             height: 10px;
             fill: #9B9B9B;
             width: 10px;
         }
-
         .cash {
             font-size: 20px;
             font-family: $main-font;
             color: rgb(156, 156, 156);
             margin: 10px;
         }
-
         .wallet {
             width: 20px;
             height: 20px;
@@ -93,7 +82,11 @@
             fill: #9B9B9B;
             position: relative;
             bottom: 2px;
-
+        }
+    }
+    @media (max-width: 992px) {
+        .topbar {
+            display: none;
         }
     }
 }

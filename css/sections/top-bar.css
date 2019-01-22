@@ -98,4 +98,10 @@
   bottom: 2px;
 }
 
+@media (max-width: 992px) {
+  .topbar .topbar {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=top-bar.css.map */
