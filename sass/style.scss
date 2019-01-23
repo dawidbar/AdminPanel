@@ -1,7 +1,7 @@
-@import "sass/variables";
-@import "sass/mixins";
-@import "sass/normalize";
-@import "sass/layout";
+@import "variables";
+@import "mixins";
+@import "normalize";
+@import "layout";
 @import "sass/sections/top-bar";
 @import "sass/sections/side-bar";
 @import "sass/sections/general-statistic";
@@ -11,9 +11,4 @@
 
 body {
     background-color: #F3F3F0;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
 }

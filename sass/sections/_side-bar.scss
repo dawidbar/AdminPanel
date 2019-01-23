@@ -15,6 +15,7 @@
         background-image: none;
         border: 1px solid transparent;
         border-radius: 4px;
+        display: none;
     }
     .icon-bar {
         display: block;
@@ -89,35 +90,33 @@
     .user-mobile, .notification-mobile, .cash-mobile, .logout-mobile {
         border-right: 1px solid $border-line;
         border-bottom: 1px solid #333333;
-        padding-bottom: 10px;
         display: none;
         h1 {
             font-size: 14px;
             font-family: $main-font;
             color: #999999;
             padding-left: 20px;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
         .profile-name, .notification-name, .cash-name, .logout-name{
             display: inline-flex;
+            padding-left: 20px;
             .user-name-mobile {
                 margin-right: 20px;
                 margin-left: 5px;
                 font-size: 13px;
                 font-family: $main-font;
                 color: #83a3b9;
+                
             }
             .profile-mobile, .bell-mobile, .wallet-mobile, .exit-mobile {
-                width: 40px;
-                height: 40px;
-                margin-left: 20px;
-                fill: #9B9B9B;
+               @extend .linkimg;
             }
         }
     }
     .cash-mobile, .notification-mobile, .logout-mobile {
         .cash-name-mobile, .notification-name-mobile, .logout-name-mobile {
-            font-size: 20px;
+            font-size: 14px;
             font-family: "Roboto", sans-serif;
             color: #9c9c9c;
             margin: 10px;
@@ -135,5 +134,20 @@
                 display: block;
             }
         }
+    }
+    @media (max-width: 992px) {
+        .navbutton {
+            display: block;
+        }
+        .logo {
+            display: none;
+        }
+        a {
+            display: none;
+        }
+        .meneger {
+            display: none;
+        }
+
     }
 }
