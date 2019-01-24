@@ -5,6 +5,9 @@
     background-color:#191919;
     position: fixed;
     top: 0;
+    .test {
+        overflow-y: auto; 
+    }
     .navbutton {
         float: right;
         padding: 9px 10px;
@@ -135,19 +138,19 @@
             }
         }
     }
-    @media (max-width: 992px) {
-        .navbutton {
-            display: block;
-        }
-        .logo {
-            display: none;
-        }
-        a {
-            display: none;
-        }
-        .meneger {
-            display: none;
-        }
+    // @media (max-width: 992px) {
+    //     .navbutton {
+    //         display: block;
+    //     }
+    //     .logo {
+    //         display: none;
+    //     }
+    //     a {
+    //         display: none;
+    //     }
+    //     .meneger {
+    //         display: none;
+    //     }
 
-    }
+    // }
 }

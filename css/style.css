@@ -744,6 +744,10 @@ template {
   top: 0;
 }
 
+.sidebar .test {
+  overflow-y: auto;
+}
+
 .sidebar .navbutton {
   float: right;
   padding: 9px 10px;
@@ -886,21 +890,6 @@ template {
   }
   .sidebar .cash-mobile .cash-name-mobile, .sidebar .cash-mobile .notification-name-mobile, .sidebar .cash-mobile .logout-name-mobile, .sidebar .notification-mobile .cash-name-mobile, .sidebar .notification-mobile .notification-name-mobile, .sidebar .notification-mobile .logout-name-mobile, .sidebar .logout-mobile .cash-name-mobile, .sidebar .logout-mobile .notification-name-mobile, .sidebar .logout-mobile .logout-name-mobile {
     display: block;
-  }
-}
-
-@media (max-width: 992px) {
-  .sidebar .navbutton {
-    display: block;
-  }
-  .sidebar .logo {
-    display: none;
-  }
-  .sidebar a {
-    display: none;
-  }
-  .sidebar .meneger {
-    display: none;
   }
 }
 
@@ -1136,5 +1125,9 @@ template {
 
 body {
   background-color: #F3F3F0;
+}
+
+p {
+  margin: 1em 0;
 }
 /*# sourceMappingURL=style.css.map */
