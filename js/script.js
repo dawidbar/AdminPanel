@@ -1,7 +1,8 @@
-$(window).on('load resize', function () {
-    if ($(this).width() < 640) {
-      $('table tfoot').hide();
-    } else {
-      $('table tfoot').show();
-    }  
-  });
+document.querySelector('.navbutton').addEventListener('click', function (e) {
+  e.preventDefault();
+  toggleMenu()
+});
+
+function toggleMenu(visible) {
+  $('.sidebar').addClass('jsss').removeClass('sidebar');
+}

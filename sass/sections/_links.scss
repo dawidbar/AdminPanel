@@ -7,6 +7,7 @@
     .links-title {
         font-size: 16px;
         font-family: $main-font;
+        font-weight: 400;
         color: #ACACAC;
         padding: 20px;
         border-bottom: 1px solid $border-line;
@@ -26,18 +27,16 @@
             border : 2px solid $button-hover-orange;
         }
     }    
-    table caption {
-        padding: .5em 0;
-    }
+    .scroll-wrapper {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+      }
       
-    table tfoot tr td {
-        text-align: center !important;
-    }
-    @media (max-width: 39.9375em) {
-        .tablesaw-stack tbody tr:not(:last-child) {
-          border-bottom: 2px solid #0B0B0D;
-        }
-    }
+      .scroll-wrapper table {
+        width: 100%;
+        max-width: 100%;
+      }
     .sitename {
         font-size: 16px;
         font-family: $main-font;
@@ -47,8 +46,8 @@
     .linkname {
         font-size: 16px;
         font-family: $main-font;
-        color: rgb(86, 129, 159);  
-        padding-left: 200px;      
+        color: rgb(86, 129, 159);
+        padding-left: 150px;
     }
     .icons {
         .link {
@@ -62,6 +61,24 @@
             margin-left: 10px;
             bottom: 2px;
             fill: #9B9B9B;
+        }
+    }
+}
+@media (max-width: 992px) {
+    .links {
+        margin-left: 100px;
+        margin-right: 50px;
+        .linkname {
+            padding-left: unset;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .links {
+        margin-left: 60px;
+        margin-right: 10px;
+        .linkname {
+            padding-left: unset;
         }
     }
 }

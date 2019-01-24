@@ -9,6 +9,7 @@
     .general-title {
         font-size: 16px;
         font-family: $main-font;
+        font-weight: 400;
         color: #ACACAC;
         padding: 20px;
         border-bottom: 1px solid $border-line;
@@ -29,6 +30,7 @@
                 text-align: center;
                 width: 150px;
                 font-family: $main-font;
+                font-weight: 400;
 
                 &:nth-of-type(2) {
                     border-left: 1px solid $border-line;
@@ -84,7 +86,9 @@
         }
 
         .header {
-            display: inline-flex;
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
             border-bottom: 1px solid $border-line;
         }
     }
@@ -95,16 +99,18 @@
         .earnings-header {
             font-size: 16px;
             font-family: $main-font;
+            font-weight: 400;
             color: rgb(166, 166, 166);
             margin-top: 70px;
             text-align: left;
         }
 
         .signups {
-            display: inline-flex;
+            display: flex;
+            justify-content: center;
             padding: 10px;
             margin-top: 30px;
-            margin-right: 50px;
+
 
             &:nth-of-type(3) {
                 margin-right: 0;
@@ -140,11 +146,22 @@
                 cursor: pointer;
             }
         }
-
         .graph {
             margin: 50px 0;
             max-width: 100%;
             height: auto;
         }
+    }
+}
+@media (max-width: 992px) {
+    .general-statistic {
+        margin-left: 100px;
+        margin-right: 50px;
+    }
+}
+@media (max-width: 576px) {
+    .general-statistic {
+        margin-left: 60px;
+        margin-right: 10px;
     }
 }
