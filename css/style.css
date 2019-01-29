@@ -1232,6 +1232,31 @@ template {
   }
 }
 
+@media (max-width: 471px) {
+  .general-statistic .calendar {
+    display: block;
+  }
+  .general-statistic .calendar .date-period {
+    max-width: 150px;
+    margin: 0 auto;
+  }
+  .general-statistic .calendar .date-period input {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+  }
+  .general-statistic .calendar .date-period input:nth-of-type(2) {
+    border-left: none;
+  }
+  .general-statistic .calendar .date-period .calendaricon {
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+  .general-statistic .calendar .date-button {
+    margin: 20px auto;
+  }
+}
+
 /* Colors */
 /* Font sizes */
 /* Fonts */

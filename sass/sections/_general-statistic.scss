@@ -165,3 +165,29 @@
         margin-right: 10px;
     }
 }
+@media (max-width: 471px) {
+    .general-statistic {
+        .calendar {
+            display: block;
+            .date-period {
+                max-width: 150px;
+                margin: 0 auto;
+                input {
+                    width: 100px;
+                    margin: 0 auto;
+                    display: block;
+                    &:nth-of-type(2) {
+                        border-left: none;
+                    }
+                }
+                .calendaricon {
+                    margin-left: 60px;
+                    margin-top: 10px;
+                }
+            }
+            .date-button {
+                margin: 20px auto;
+            }
+        }
+    }
+}
