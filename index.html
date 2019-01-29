@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/tablesaw.stackonly.css'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>SoloProject</title>
@@ -99,7 +101,7 @@
 	S3.1,2,4.5,2z M7.7,7.7L6.9,8.3C8,9.5,8,11.1,8,12.9V13H1v-0.1C1,11.1,1,9.5,2,8.3L1.3,7.7C0,9.1,0,10.9,0,12.9L0,14h9l0-1.1
 	C9,10.9,9,9.1,7.7,7.7z" />
                     </svg>
-                    <a href="#">Personal data</a>
+                    <a href="personaldata.html">Personal data</a>
                 </li>
                 <li>
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -255,9 +257,11 @@
     <div class="links">
         <h1 class="links-title">LINKS</h1>
         <button type="button" class="add-new">+ add new</button>
-        <div class="scroll-wrapper">
-            <table>
-                <tbody>
+        <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-hover tablesaw tablesaw-stack" data-tablesaw-mode="stack">
+                            <tbody>
                     <tr>
                         <td class="sitename">Home page</td>
                         <td class="linkname">http://www.homepage.com</td>

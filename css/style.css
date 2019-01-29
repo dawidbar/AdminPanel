@@ -775,6 +775,7 @@ template {
   list-style-type: none;
   padding-left: 0px;
   padding-bottom: 20px;
+  padding-top: 20px;
   border-bottom: 1px solid #333333;
 }
 
@@ -1294,17 +1295,6 @@ template {
   border: 2px solid #ffa200;
 }
 
-.links .scroll-wrapper {
-  display: block;
-  width: 100%;
-  overflow-x: auto;
-}
-
-.links .scroll-wrapper table {
-  width: 100%;
-  max-width: 100%;
-}
-
 .links .sitename {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
@@ -1350,6 +1340,72 @@ template {
   .links .linkname {
     padding-left: unset;
   }
+}
+
+/* Colors */
+/* Font sizes */
+/* Fonts */
+.personaldata {
+  padding-bottom: 20px;
+}
+
+.personaldata form .field {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.personaldata form .field label {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #a6a6a6;
+  display: inline-block;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.personaldata form .field input {
+  border: 1px solid #E3E3E3;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.personaldata form .field span {
+  display: inline-block;
+}
+
+.personaldata form .border-bottom {
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.personaldata form .border-bottom input {
+  margin-bottom: 20px;
+}
+
+.personaldata form .margin-top {
+  margin-top: 10px;
+}
+
+.personaldata form .save {
+  border-radius: 3px;
+  background-color: #f58220;
+  border: 2px solid #f58220;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px auto 0;
+}
+
+.wrong {
+  border: 2px solid red !important;
 }
 
 body {

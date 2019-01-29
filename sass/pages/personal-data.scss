@@ -1,0 +1,54 @@
+@import 'sass/variables';
+.personaldata {
+    padding-bottom: 20px; 
+    form {
+        .field {
+            display: flex;
+            justify-content: center;
+            label {
+                font-size: 16px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 700;
+                color: #a6a6a6;
+                display: inline-block;
+                width: 200px;
+                margin-top: 20px;
+            }
+            input {
+                border: 1px solid $border-line;
+                display: inline-block;
+                padding: 10px;
+                margin-top: 10px;
+                font-family: $main-font;
+                font-size: 14px;
+            }
+            span {
+                display: inline-block;
+            }
+        }
+        .border-bottom {
+            border-bottom: 1px solid $border-line;
+            input {
+                margin-bottom: 20px;
+            }
+        }
+        .margin-top{
+            margin-top: 10px;
+        }
+        .save {
+            border-radius: 3px;
+            background-color: #f58220;
+            border: 2px solid #f58220;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-family: "Roboto", sans-serif;
+            color: white;
+            display: -ms-flexbox;
+            display: flex;
+            margin: 20px auto 0;
+        }
+    }
+}
+.wrong {
+    border: 2px solid red !important;
+}

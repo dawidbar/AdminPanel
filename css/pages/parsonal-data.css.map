@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "parsonal-data.css",
+	"sources": [
+		"../../sass/pages/parsonal-data.scss",
+		"../../sass/_variables.scss"
+	],
+	"names": [],
+	"mappings": "ACAA,YAAY;AAQZ,gBAAgB;AAGhB,WAAW;ADVX,AAGY,aAHC,CACT,IAAI,CACA,MAAM,CACF,KAAK,CAAC;EACF,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,oBAAoB;EACjC,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,OAAO;CACjB"
+}
