@@ -52,3 +52,15 @@
 .wrong {
     border: 2px solid red !important;
 }
+@media (max-width: 471px) {
+    .personaldata { 
+        form {
+            .field {
+                display: block;
+                text-align: center;
+                label { 
+                }
+            }
+        }
+    }
+}
