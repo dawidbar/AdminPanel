@@ -4,17 +4,17 @@ document.querySelector('.navbutton').addEventListener('click', function (e) {
 });
 
 function toggleMenu(visible) {
-  $('.sidebar').addClass('jsss').removeClass('sidebar');
+  $('.sidebar').toggleClass('jsss');
 }
 
 var check = function () {
   if (document.getElementById('password').value ==
     document.getElementById('retype').value) {
-    document.getElementById('message').style.color = 'green';
-    document.getElementById('message').innerHTML = 'matching';
+      document.getElementById('retype').classList.add('good');
+      document.getElementById('.retype').classList.remove('wrong')
   } else {
-    document.getElementById('message').style.color = 'red';
-    document.getElementById('message').innerHTML = 'not matching';
+    document.getElementById('retype').classList.add('wrong');
+    document.getElementById('retype').classList.remove('good');
   }
 }
 
