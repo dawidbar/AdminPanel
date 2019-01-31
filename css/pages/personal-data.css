@@ -62,6 +62,10 @@
   border: 2px solid red !important;
 }
 
+.good {
+  border: 2px solid green !important;
+}
+
 @media (max-width: 471px) {
   .personaldata form .field {
     display: block;
