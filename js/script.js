@@ -3,7 +3,7 @@ document.querySelector('.navbutton').addEventListener('click', function (e) {
   toggleMenu()
 });
 
-function toggleMenu(visible) {
+function toggleMenu() {
   $('.sidebar').toggleClass('jsss');
 }
 
