@@ -213,73 +213,72 @@
 }
 
 .sidebar .jsss {
-        width: 200px;
-        .navbutton {
-            display: block;
-            margin-right: 0;
-            margin-bottom: 0;
+    width: 200px;
+    .navbutton {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    ul {
+        border-bottom: 1px solid #333333;
+    }
+    .logo {
+        display: initial;
+    }
+    a {
+        display: initial;
+    }
+    .meneger {
+        display: initial;
+    }
+    svg {
+        display: initial;
+    }
+    .user-mobile,
+    .notification-mobile,
+    .cash-mobile,
+    .logout-mobile {
+        border-bottom: 1px solid #333333;
+        h1 {
+            font-size: 14px;
+            font-family: $main-font;
+            color: #999999;
+            padding-left: 20px;
+            margin-bottom: 10px;
         }
-        ul {
-            border-bottom: 1px solid #333333;
-        }
-        .logo {
-            display: initial;
-        }
-        a {
-            display: initial;
-        }
-        .meneger {
-            display: initial;
-        }
-        svg {
-            display: initial;
-        }
-        .user-mobile,
-        .notification-mobile,
-        .cash-mobile,
-        .logout-mobile {
-            border-bottom: 1px solid #333333;
-            h1 {
-                font-size: 14px;
+        .profile-name,
+        .notification-name,
+        .cash-name,
+        .logout-name {
+            display: inline-flex;
+            padding-left: 20px;
+            .user-name-mobile {
+                margin-right: 20px;
+                margin-left: 5px;
+                font-size: 13px;
                 font-family: $main-font;
-                color: #999999;
-                padding-left: 20px;
-                margin-bottom: 10px;
+                color: #83a3b9;
             }
-            .profile-name,
-            .notification-name,
-            .cash-name,
-            .logout-name {
-                display: inline-flex;
-                padding-left: 20px;
-                .user-name-mobile {
-                    margin-right: 20px;
-                    margin-left: 5px;
-                    font-size: 13px;
-                    font-family: $main-font;
-                    color: #83a3b9;
-                }
-                .profile-mobile,
-                .bell-mobile,
-                .wallet-mobile,
-                .exit-mobile {
-                    @extend .linkimg;
-                }
+            .profile-mobile,
+            .bell-mobile,
+            .wallet-mobile,
+            .exit-mobile {
+                @extend .linkimg;
             }
         }
-        .cash-mobile,
-        .notification-mobile,
-        .logout-mobile {
-            .cash-name-mobile,
-            .notification-name-mobile,
-            .logout-name-mobile {
-                font-size: 14px;
-                font-family: "Roboto", sans-serif;
-                color: #9c9c9c;
-                margin: 10px;
-                position: relative;
-                bottom: 6px;
-            }
+    }
+    .cash-mobile,
+    .notification-mobile,
+    .logout-mobile {
+        .cash-name-mobile,
+        .notification-name-mobile,
+        .logout-name-mobile {
+            font-size: 14px;
+            font-family: "Roboto", sans-serif;
+            color: #9c9c9c;
+            margin: 10px;
+            position: relative;
+            bottom: 6px;
         }
     }
 }
