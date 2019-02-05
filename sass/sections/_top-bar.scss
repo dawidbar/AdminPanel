@@ -13,6 +13,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        &:hover {
+            background-color: $border-line;
+        }
         .quit {
             width: 20px;
             height: 20px;
@@ -27,6 +30,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        &:hover {
+            background-color: $border-line;
+        }
         .user-name {
             margin-right: 20px;
             margin-left: 5px;
@@ -48,6 +54,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        &:hover {
+            background-color: $border-line;
+        }
         .bell {
             width: 20px;
             height: 20px;
@@ -63,6 +72,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        &:hover {
+            background-color: $border-line;
+        }
         .arrow {
             margin-right: 20px;
             height: 10px;

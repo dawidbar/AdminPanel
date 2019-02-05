@@ -27,7 +27,8 @@
 
             input {
                 border: none;
-                text-align: center;
+                text-align: left;
+                padding-left: 10px;
                 width: 150px;
                 font-family: $main-font;
                 font-weight: 400;
@@ -176,6 +177,7 @@
                     width: 100px;
                     margin: 0 auto;
                     display: block;
+                    text-align: center;
                     &:nth-of-type(2) {
                         border-left: none;
                     }

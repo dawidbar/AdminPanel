@@ -638,6 +638,10 @@ template {
       justify-content: center;
 }
 
+.topbar .logout:hover {
+  background-color: #E3E3E3;
+}
+
 .topbar .logout .quit {
   width: 20px;
   height: 20px;
@@ -655,6 +659,10 @@ template {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
+}
+
+.topbar .user:hover {
+  background-color: #E3E3E3;
 }
 
 .topbar .user .user-name {
@@ -684,6 +692,10 @@ template {
       justify-content: center;
 }
 
+.topbar .notification:hover {
+  background-color: #E3E3E3;
+}
+
 .topbar .notification .bell {
   width: 20px;
   height: 20px;
@@ -702,6 +714,10 @@ template {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
+}
+
+.topbar .money:hover {
+  background-color: #E3E3E3;
 }
 
 .topbar .money .arrow {
@@ -749,7 +765,7 @@ template {
   overflow-y: auto;
 }
 
-.sidebar .navbutton {
+.sidebar .test .navbutton {
   float: right;
   padding: 9px 10px;
   margin-top: 8px;
@@ -762,7 +778,7 @@ template {
   display: none;
 }
 
-.sidebar .icon-bar {
+.sidebar .test .icon-bar {
   display: block;
   width: 22px;
   height: 2px;
@@ -771,7 +787,7 @@ template {
   margin: 4px;
 }
 
-.sidebar ul {
+.sidebar .test ul {
   list-style-type: none;
   padding-left: 0px;
   padding-bottom: 20px;
@@ -779,150 +795,87 @@ template {
   border-bottom: 1px solid #333333;
 }
 
-.sidebar ul li {
+.sidebar .test ul li {
   padding-left: 20px;
 }
 
-.sidebar ul li:hover {
+.sidebar .test ul li:hover {
   background-color: #696c72;
   border-left: 4px solid #F58220;
 }
 
-.sidebar ul li:hover a {
+.sidebar .test ul li:hover a {
   color: #fff;
 }
 
-.sidebar ul li:hover .linkimg, .sidebar ul li:hover .user-mobile .profile-name .profile-mobile, .sidebar .user-mobile .profile-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .user-mobile .profile-name .bell-mobile, .sidebar .user-mobile .profile-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .user-mobile .profile-name .wallet-mobile, .sidebar .user-mobile .profile-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .user-mobile .profile-name .exit-mobile, .sidebar .user-mobile .profile-name ul li:hover .exit-mobile,
-.sidebar ul li:hover .user-mobile .notification-name .profile-mobile, .sidebar .user-mobile .notification-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .user-mobile .notification-name .bell-mobile, .sidebar .user-mobile .notification-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .user-mobile .notification-name .wallet-mobile, .sidebar .user-mobile .notification-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .user-mobile .notification-name .exit-mobile, .sidebar .user-mobile .notification-name ul li:hover .exit-mobile,
-.sidebar ul li:hover .user-mobile .cash-name .profile-mobile, .sidebar .user-mobile .cash-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .user-mobile .cash-name .bell-mobile, .sidebar .user-mobile .cash-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .user-mobile .cash-name .wallet-mobile, .sidebar .user-mobile .cash-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .user-mobile .cash-name .exit-mobile, .sidebar .user-mobile .cash-name ul li:hover .exit-mobile,
-.sidebar ul li:hover .user-mobile .logout-name .profile-mobile, .sidebar .user-mobile .logout-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .user-mobile .logout-name .bell-mobile, .sidebar .user-mobile .logout-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .user-mobile .logout-name .wallet-mobile, .sidebar .user-mobile .logout-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .user-mobile .logout-name .exit-mobile, .sidebar .user-mobile .logout-name ul li:hover .exit-mobile,
-.sidebar ul li:hover .notification-mobile .profile-name .profile-mobile, .sidebar .notification-mobile .profile-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .notification-mobile .profile-name .bell-mobile, .sidebar .notification-mobile .profile-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .notification-mobile .profile-name .wallet-mobile, .sidebar .notification-mobile .profile-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .notification-mobile .profile-name .exit-mobile, .sidebar .notification-mobile .profile-name ul li:hover .exit-mobile,
-.sidebar ul li:hover .notification-mobile .notification-name .profile-mobile, .sidebar .notification-mobile .notification-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .notification-mobile .notification-name .bell-mobile, .sidebar .notification-mobile .notification-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .notification-mobile .notification-name .wallet-mobile, .sidebar .notification-mobile .notification-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .notification-mobile .notification-name .exit-mobile, .sidebar .notification-mobile .notification-name ul li:hover .exit-mobile,
-.sidebar ul li:hover .notification-mobile .cash-name .profile-mobile, .sidebar .notification-mobile .cash-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .notification-mobile .cash-name .bell-mobile, .sidebar .notification-mobile .cash-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .notification-mobile .cash-name .wallet-mobile, .sidebar .notification-mobile .cash-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .notification-mobile .cash-name .exit-mobile, .sidebar .notification-mobile .cash-name ul li:hover .exit-mobile,
-.sidebar ul li:hover .notification-mobile .logout-name .profile-mobile, .sidebar .notification-mobile .logout-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .notification-mobile .logout-name .bell-mobile, .sidebar .notification-mobile .logout-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .notification-mobile .logout-name .wallet-mobile, .sidebar .notification-mobile .logout-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .notification-mobile .logout-name .exit-mobile, .sidebar .notification-mobile .logout-name ul li:hover .exit-mobile,
-.sidebar ul li:hover .cash-mobile .profile-name .profile-mobile, .sidebar .cash-mobile .profile-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .cash-mobile .profile-name .bell-mobile, .sidebar .cash-mobile .profile-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .cash-mobile .profile-name .wallet-mobile, .sidebar .cash-mobile .profile-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .cash-mobile .profile-name .exit-mobile, .sidebar .cash-mobile .profile-name ul li:hover .exit-mobile,
-.sidebar ul li:hover .cash-mobile .notification-name .profile-mobile, .sidebar .cash-mobile .notification-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .cash-mobile .notification-name .bell-mobile, .sidebar .cash-mobile .notification-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .cash-mobile .notification-name .wallet-mobile, .sidebar .cash-mobile .notification-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .cash-mobile .notification-name .exit-mobile, .sidebar .cash-mobile .notification-name ul li:hover .exit-mobile,
-.sidebar ul li:hover .cash-mobile .cash-name .profile-mobile, .sidebar .cash-mobile .cash-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .cash-mobile .cash-name .bell-mobile, .sidebar .cash-mobile .cash-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .cash-mobile .cash-name .wallet-mobile, .sidebar .cash-mobile .cash-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .cash-mobile .cash-name .exit-mobile, .sidebar .cash-mobile .cash-name ul li:hover .exit-mobile,
-.sidebar ul li:hover .cash-mobile .logout-name .profile-mobile, .sidebar .cash-mobile .logout-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .cash-mobile .logout-name .bell-mobile, .sidebar .cash-mobile .logout-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .cash-mobile .logout-name .wallet-mobile, .sidebar .cash-mobile .logout-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .cash-mobile .logout-name .exit-mobile, .sidebar .cash-mobile .logout-name ul li:hover .exit-mobile,
-.sidebar ul li:hover .logout-mobile .profile-name .profile-mobile, .sidebar .logout-mobile .profile-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .logout-mobile .profile-name .bell-mobile, .sidebar .logout-mobile .profile-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .logout-mobile .profile-name .wallet-mobile, .sidebar .logout-mobile .profile-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .logout-mobile .profile-name .exit-mobile, .sidebar .logout-mobile .profile-name ul li:hover .exit-mobile,
-.sidebar ul li:hover .logout-mobile .notification-name .profile-mobile, .sidebar .logout-mobile .notification-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .logout-mobile .notification-name .bell-mobile, .sidebar .logout-mobile .notification-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .logout-mobile .notification-name .wallet-mobile, .sidebar .logout-mobile .notification-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .logout-mobile .notification-name .exit-mobile, .sidebar .logout-mobile .notification-name ul li:hover .exit-mobile,
-.sidebar ul li:hover .logout-mobile .cash-name .profile-mobile, .sidebar .logout-mobile .cash-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .logout-mobile .cash-name .bell-mobile, .sidebar .logout-mobile .cash-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .logout-mobile .cash-name .wallet-mobile, .sidebar .logout-mobile .cash-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .logout-mobile .cash-name .exit-mobile, .sidebar .logout-mobile .cash-name ul li:hover .exit-mobile,
-.sidebar ul li:hover .logout-mobile .logout-name .profile-mobile, .sidebar .logout-mobile .logout-name ul li:hover .profile-mobile,
-.sidebar ul li:hover .logout-mobile .logout-name .bell-mobile, .sidebar .logout-mobile .logout-name ul li:hover .bell-mobile,
-.sidebar ul li:hover .logout-mobile .logout-name .wallet-mobile, .sidebar .logout-mobile .logout-name ul li:hover .wallet-mobile,
-.sidebar ul li:hover .logout-mobile .logout-name .exit-mobile, .sidebar .logout-mobile .logout-name ul li:hover .exit-mobile, .sidebar ul li:hover .jsss .user-mobile .profile-name .profile-mobile, .jsss .user-mobile .profile-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .user-mobile .profile-name .bell-mobile, .jsss .user-mobile .profile-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .user-mobile .profile-name .wallet-mobile, .jsss .user-mobile .profile-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .user-mobile .profile-name .exit-mobile, .jsss .user-mobile .profile-name .sidebar ul li:hover .exit-mobile,
-.sidebar ul li:hover .jsss .user-mobile .notification-name .profile-mobile, .jsss .user-mobile .notification-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .user-mobile .notification-name .bell-mobile, .jsss .user-mobile .notification-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .user-mobile .notification-name .wallet-mobile, .jsss .user-mobile .notification-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .user-mobile .notification-name .exit-mobile, .jsss .user-mobile .notification-name .sidebar ul li:hover .exit-mobile,
-.sidebar ul li:hover .jsss .user-mobile .cash-name .profile-mobile, .jsss .user-mobile .cash-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .user-mobile .cash-name .bell-mobile, .jsss .user-mobile .cash-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .user-mobile .cash-name .wallet-mobile, .jsss .user-mobile .cash-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .user-mobile .cash-name .exit-mobile, .jsss .user-mobile .cash-name .sidebar ul li:hover .exit-mobile,
-.sidebar ul li:hover .jsss .user-mobile .logout-name .profile-mobile, .jsss .user-mobile .logout-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .user-mobile .logout-name .bell-mobile, .jsss .user-mobile .logout-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .user-mobile .logout-name .wallet-mobile, .jsss .user-mobile .logout-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .user-mobile .logout-name .exit-mobile, .jsss .user-mobile .logout-name .sidebar ul li:hover .exit-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .profile-name .profile-mobile, .jsss .notification-mobile .profile-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .profile-name .bell-mobile, .jsss .notification-mobile .profile-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .profile-name .wallet-mobile, .jsss .notification-mobile .profile-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .profile-name .exit-mobile, .jsss .notification-mobile .profile-name .sidebar ul li:hover .exit-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .notification-name .profile-mobile, .jsss .notification-mobile .notification-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .notification-name .bell-mobile, .jsss .notification-mobile .notification-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .notification-name .wallet-mobile, .jsss .notification-mobile .notification-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .notification-name .exit-mobile, .jsss .notification-mobile .notification-name .sidebar ul li:hover .exit-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .cash-name .profile-mobile, .jsss .notification-mobile .cash-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .cash-name .bell-mobile, .jsss .notification-mobile .cash-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .cash-name .wallet-mobile, .jsss .notification-mobile .cash-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .cash-name .exit-mobile, .jsss .notification-mobile .cash-name .sidebar ul li:hover .exit-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .logout-name .profile-mobile, .jsss .notification-mobile .logout-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .logout-name .bell-mobile, .jsss .notification-mobile .logout-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .logout-name .wallet-mobile, .jsss .notification-mobile .logout-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .notification-mobile .logout-name .exit-mobile, .jsss .notification-mobile .logout-name .sidebar ul li:hover .exit-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .profile-name .profile-mobile, .jsss .cash-mobile .profile-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .profile-name .bell-mobile, .jsss .cash-mobile .profile-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .profile-name .wallet-mobile, .jsss .cash-mobile .profile-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .profile-name .exit-mobile, .jsss .cash-mobile .profile-name .sidebar ul li:hover .exit-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .notification-name .profile-mobile, .jsss .cash-mobile .notification-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .notification-name .bell-mobile, .jsss .cash-mobile .notification-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .notification-name .wallet-mobile, .jsss .cash-mobile .notification-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .notification-name .exit-mobile, .jsss .cash-mobile .notification-name .sidebar ul li:hover .exit-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .cash-name .profile-mobile, .jsss .cash-mobile .cash-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .cash-name .bell-mobile, .jsss .cash-mobile .cash-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .cash-name .wallet-mobile, .jsss .cash-mobile .cash-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .cash-name .exit-mobile, .jsss .cash-mobile .cash-name .sidebar ul li:hover .exit-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .logout-name .profile-mobile, .jsss .cash-mobile .logout-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .logout-name .bell-mobile, .jsss .cash-mobile .logout-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .logout-name .wallet-mobile, .jsss .cash-mobile .logout-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .cash-mobile .logout-name .exit-mobile, .jsss .cash-mobile .logout-name .sidebar ul li:hover .exit-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .profile-name .profile-mobile, .jsss .logout-mobile .profile-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .profile-name .bell-mobile, .jsss .logout-mobile .profile-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .profile-name .wallet-mobile, .jsss .logout-mobile .profile-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .profile-name .exit-mobile, .jsss .logout-mobile .profile-name .sidebar ul li:hover .exit-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .notification-name .profile-mobile, .jsss .logout-mobile .notification-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .notification-name .bell-mobile, .jsss .logout-mobile .notification-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .notification-name .wallet-mobile, .jsss .logout-mobile .notification-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .notification-name .exit-mobile, .jsss .logout-mobile .notification-name .sidebar ul li:hover .exit-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .cash-name .profile-mobile, .jsss .logout-mobile .cash-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .cash-name .bell-mobile, .jsss .logout-mobile .cash-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .cash-name .wallet-mobile, .jsss .logout-mobile .cash-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .cash-name .exit-mobile, .jsss .logout-mobile .cash-name .sidebar ul li:hover .exit-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .logout-name .profile-mobile, .jsss .logout-mobile .logout-name .sidebar ul li:hover .profile-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .logout-name .bell-mobile, .jsss .logout-mobile .logout-name .sidebar ul li:hover .bell-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .logout-name .wallet-mobile, .jsss .logout-mobile .logout-name .sidebar ul li:hover .wallet-mobile,
-.sidebar ul li:hover .jsss .logout-mobile .logout-name .exit-mobile, .jsss .logout-mobile .logout-name .sidebar ul li:hover .exit-mobile {
+.sidebar .test ul li:hover .linkimg, .sidebar .test ul li:hover .mobile-topbar .user-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .profile-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .user-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .profile-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .user-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .profile-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .user-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .user-mobile .profile-name ul li:hover .exit-mobile,
+.sidebar .test ul li:hover .mobile-topbar .user-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .user-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .user-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .user-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name ul li:hover .exit-mobile,
+.sidebar .test ul li:hover .mobile-topbar .user-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .user-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .user-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .user-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name ul li:hover .exit-mobile,
+.sidebar .test ul li:hover .mobile-topbar .user-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .user-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .user-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .user-mobile .logout-name .exit-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name ul li:hover .exit-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name ul li:hover .exit-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name ul li:hover .exit-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name ul li:hover .exit-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .notification-mobile .logout-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name ul li:hover .exit-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name ul li:hover .exit-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name ul li:hover .exit-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name ul li:hover .exit-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .cash-mobile .logout-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name ul li:hover .exit-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name ul li:hover .exit-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name ul li:hover .exit-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name ul li:hover .exit-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name ul li:hover .profile-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name ul li:hover .bell-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name ul li:hover .wallet-mobile,
+.sidebar .test ul li:hover .mobile-topbar .logout-mobile .logout-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name ul li:hover .exit-mobile {
   fill: #fff;
 }
 
-.sidebar ul a {
+.sidebar .test ul a {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   color: #999999;
@@ -931,138 +884,75 @@ template {
   padding-left: 5px;
 }
 
-.sidebar .logo {
+.sidebar .test .logo {
   margin-top: 15px;
   margin-left: 20px;
 }
 
-.sidebar .linkimg, .sidebar .user-mobile .profile-name .profile-mobile,
-.sidebar .user-mobile .profile-name .bell-mobile,
-.sidebar .user-mobile .profile-name .wallet-mobile,
-.sidebar .user-mobile .profile-name .exit-mobile,
-.sidebar .user-mobile .notification-name .profile-mobile,
-.sidebar .user-mobile .notification-name .bell-mobile,
-.sidebar .user-mobile .notification-name .wallet-mobile,
-.sidebar .user-mobile .notification-name .exit-mobile,
-.sidebar .user-mobile .cash-name .profile-mobile,
-.sidebar .user-mobile .cash-name .bell-mobile,
-.sidebar .user-mobile .cash-name .wallet-mobile,
-.sidebar .user-mobile .cash-name .exit-mobile,
-.sidebar .user-mobile .logout-name .profile-mobile,
-.sidebar .user-mobile .logout-name .bell-mobile,
-.sidebar .user-mobile .logout-name .wallet-mobile,
-.sidebar .user-mobile .logout-name .exit-mobile,
-.sidebar .notification-mobile .profile-name .profile-mobile,
-.sidebar .notification-mobile .profile-name .bell-mobile,
-.sidebar .notification-mobile .profile-name .wallet-mobile,
-.sidebar .notification-mobile .profile-name .exit-mobile,
-.sidebar .notification-mobile .notification-name .profile-mobile,
-.sidebar .notification-mobile .notification-name .bell-mobile,
-.sidebar .notification-mobile .notification-name .wallet-mobile,
-.sidebar .notification-mobile .notification-name .exit-mobile,
-.sidebar .notification-mobile .cash-name .profile-mobile,
-.sidebar .notification-mobile .cash-name .bell-mobile,
-.sidebar .notification-mobile .cash-name .wallet-mobile,
-.sidebar .notification-mobile .cash-name .exit-mobile,
-.sidebar .notification-mobile .logout-name .profile-mobile,
-.sidebar .notification-mobile .logout-name .bell-mobile,
-.sidebar .notification-mobile .logout-name .wallet-mobile,
-.sidebar .notification-mobile .logout-name .exit-mobile,
-.sidebar .cash-mobile .profile-name .profile-mobile,
-.sidebar .cash-mobile .profile-name .bell-mobile,
-.sidebar .cash-mobile .profile-name .wallet-mobile,
-.sidebar .cash-mobile .profile-name .exit-mobile,
-.sidebar .cash-mobile .notification-name .profile-mobile,
-.sidebar .cash-mobile .notification-name .bell-mobile,
-.sidebar .cash-mobile .notification-name .wallet-mobile,
-.sidebar .cash-mobile .notification-name .exit-mobile,
-.sidebar .cash-mobile .cash-name .profile-mobile,
-.sidebar .cash-mobile .cash-name .bell-mobile,
-.sidebar .cash-mobile .cash-name .wallet-mobile,
-.sidebar .cash-mobile .cash-name .exit-mobile,
-.sidebar .cash-mobile .logout-name .profile-mobile,
-.sidebar .cash-mobile .logout-name .bell-mobile,
-.sidebar .cash-mobile .logout-name .wallet-mobile,
-.sidebar .cash-mobile .logout-name .exit-mobile,
-.sidebar .logout-mobile .profile-name .profile-mobile,
-.sidebar .logout-mobile .profile-name .bell-mobile,
-.sidebar .logout-mobile .profile-name .wallet-mobile,
-.sidebar .logout-mobile .profile-name .exit-mobile,
-.sidebar .logout-mobile .notification-name .profile-mobile,
-.sidebar .logout-mobile .notification-name .bell-mobile,
-.sidebar .logout-mobile .notification-name .wallet-mobile,
-.sidebar .logout-mobile .notification-name .exit-mobile,
-.sidebar .logout-mobile .cash-name .profile-mobile,
-.sidebar .logout-mobile .cash-name .bell-mobile,
-.sidebar .logout-mobile .cash-name .wallet-mobile,
-.sidebar .logout-mobile .cash-name .exit-mobile,
-.sidebar .logout-mobile .logout-name .profile-mobile,
-.sidebar .logout-mobile .logout-name .bell-mobile,
-.sidebar .logout-mobile .logout-name .wallet-mobile,
-.sidebar .logout-mobile .logout-name .exit-mobile, .sidebar .jsss .user-mobile .profile-name .profile-mobile, .jsss .user-mobile .profile-name .sidebar .profile-mobile,
-.sidebar .jsss .user-mobile .profile-name .bell-mobile, .jsss .user-mobile .profile-name .sidebar .bell-mobile,
-.sidebar .jsss .user-mobile .profile-name .wallet-mobile, .jsss .user-mobile .profile-name .sidebar .wallet-mobile,
-.sidebar .jsss .user-mobile .profile-name .exit-mobile, .jsss .user-mobile .profile-name .sidebar .exit-mobile,
-.sidebar .jsss .user-mobile .notification-name .profile-mobile, .jsss .user-mobile .notification-name .sidebar .profile-mobile,
-.sidebar .jsss .user-mobile .notification-name .bell-mobile, .jsss .user-mobile .notification-name .sidebar .bell-mobile,
-.sidebar .jsss .user-mobile .notification-name .wallet-mobile, .jsss .user-mobile .notification-name .sidebar .wallet-mobile,
-.sidebar .jsss .user-mobile .notification-name .exit-mobile, .jsss .user-mobile .notification-name .sidebar .exit-mobile,
-.sidebar .jsss .user-mobile .cash-name .profile-mobile, .jsss .user-mobile .cash-name .sidebar .profile-mobile,
-.sidebar .jsss .user-mobile .cash-name .bell-mobile, .jsss .user-mobile .cash-name .sidebar .bell-mobile,
-.sidebar .jsss .user-mobile .cash-name .wallet-mobile, .jsss .user-mobile .cash-name .sidebar .wallet-mobile,
-.sidebar .jsss .user-mobile .cash-name .exit-mobile, .jsss .user-mobile .cash-name .sidebar .exit-mobile,
-.sidebar .jsss .user-mobile .logout-name .profile-mobile, .jsss .user-mobile .logout-name .sidebar .profile-mobile,
-.sidebar .jsss .user-mobile .logout-name .bell-mobile, .jsss .user-mobile .logout-name .sidebar .bell-mobile,
-.sidebar .jsss .user-mobile .logout-name .wallet-mobile, .jsss .user-mobile .logout-name .sidebar .wallet-mobile,
-.sidebar .jsss .user-mobile .logout-name .exit-mobile, .jsss .user-mobile .logout-name .sidebar .exit-mobile,
-.sidebar .jsss .notification-mobile .profile-name .profile-mobile, .jsss .notification-mobile .profile-name .sidebar .profile-mobile,
-.sidebar .jsss .notification-mobile .profile-name .bell-mobile, .jsss .notification-mobile .profile-name .sidebar .bell-mobile,
-.sidebar .jsss .notification-mobile .profile-name .wallet-mobile, .jsss .notification-mobile .profile-name .sidebar .wallet-mobile,
-.sidebar .jsss .notification-mobile .profile-name .exit-mobile, .jsss .notification-mobile .profile-name .sidebar .exit-mobile,
-.sidebar .jsss .notification-mobile .notification-name .profile-mobile, .jsss .notification-mobile .notification-name .sidebar .profile-mobile,
-.sidebar .jsss .notification-mobile .notification-name .bell-mobile, .jsss .notification-mobile .notification-name .sidebar .bell-mobile,
-.sidebar .jsss .notification-mobile .notification-name .wallet-mobile, .jsss .notification-mobile .notification-name .sidebar .wallet-mobile,
-.sidebar .jsss .notification-mobile .notification-name .exit-mobile, .jsss .notification-mobile .notification-name .sidebar .exit-mobile,
-.sidebar .jsss .notification-mobile .cash-name .profile-mobile, .jsss .notification-mobile .cash-name .sidebar .profile-mobile,
-.sidebar .jsss .notification-mobile .cash-name .bell-mobile, .jsss .notification-mobile .cash-name .sidebar .bell-mobile,
-.sidebar .jsss .notification-mobile .cash-name .wallet-mobile, .jsss .notification-mobile .cash-name .sidebar .wallet-mobile,
-.sidebar .jsss .notification-mobile .cash-name .exit-mobile, .jsss .notification-mobile .cash-name .sidebar .exit-mobile,
-.sidebar .jsss .notification-mobile .logout-name .profile-mobile, .jsss .notification-mobile .logout-name .sidebar .profile-mobile,
-.sidebar .jsss .notification-mobile .logout-name .bell-mobile, .jsss .notification-mobile .logout-name .sidebar .bell-mobile,
-.sidebar .jsss .notification-mobile .logout-name .wallet-mobile, .jsss .notification-mobile .logout-name .sidebar .wallet-mobile,
-.sidebar .jsss .notification-mobile .logout-name .exit-mobile, .jsss .notification-mobile .logout-name .sidebar .exit-mobile,
-.sidebar .jsss .cash-mobile .profile-name .profile-mobile, .jsss .cash-mobile .profile-name .sidebar .profile-mobile,
-.sidebar .jsss .cash-mobile .profile-name .bell-mobile, .jsss .cash-mobile .profile-name .sidebar .bell-mobile,
-.sidebar .jsss .cash-mobile .profile-name .wallet-mobile, .jsss .cash-mobile .profile-name .sidebar .wallet-mobile,
-.sidebar .jsss .cash-mobile .profile-name .exit-mobile, .jsss .cash-mobile .profile-name .sidebar .exit-mobile,
-.sidebar .jsss .cash-mobile .notification-name .profile-mobile, .jsss .cash-mobile .notification-name .sidebar .profile-mobile,
-.sidebar .jsss .cash-mobile .notification-name .bell-mobile, .jsss .cash-mobile .notification-name .sidebar .bell-mobile,
-.sidebar .jsss .cash-mobile .notification-name .wallet-mobile, .jsss .cash-mobile .notification-name .sidebar .wallet-mobile,
-.sidebar .jsss .cash-mobile .notification-name .exit-mobile, .jsss .cash-mobile .notification-name .sidebar .exit-mobile,
-.sidebar .jsss .cash-mobile .cash-name .profile-mobile, .jsss .cash-mobile .cash-name .sidebar .profile-mobile,
-.sidebar .jsss .cash-mobile .cash-name .bell-mobile, .jsss .cash-mobile .cash-name .sidebar .bell-mobile,
-.sidebar .jsss .cash-mobile .cash-name .wallet-mobile, .jsss .cash-mobile .cash-name .sidebar .wallet-mobile,
-.sidebar .jsss .cash-mobile .cash-name .exit-mobile, .jsss .cash-mobile .cash-name .sidebar .exit-mobile,
-.sidebar .jsss .cash-mobile .logout-name .profile-mobile, .jsss .cash-mobile .logout-name .sidebar .profile-mobile,
-.sidebar .jsss .cash-mobile .logout-name .bell-mobile, .jsss .cash-mobile .logout-name .sidebar .bell-mobile,
-.sidebar .jsss .cash-mobile .logout-name .wallet-mobile, .jsss .cash-mobile .logout-name .sidebar .wallet-mobile,
-.sidebar .jsss .cash-mobile .logout-name .exit-mobile, .jsss .cash-mobile .logout-name .sidebar .exit-mobile,
-.sidebar .jsss .logout-mobile .profile-name .profile-mobile, .jsss .logout-mobile .profile-name .sidebar .profile-mobile,
-.sidebar .jsss .logout-mobile .profile-name .bell-mobile, .jsss .logout-mobile .profile-name .sidebar .bell-mobile,
-.sidebar .jsss .logout-mobile .profile-name .wallet-mobile, .jsss .logout-mobile .profile-name .sidebar .wallet-mobile,
-.sidebar .jsss .logout-mobile .profile-name .exit-mobile, .jsss .logout-mobile .profile-name .sidebar .exit-mobile,
-.sidebar .jsss .logout-mobile .notification-name .profile-mobile, .jsss .logout-mobile .notification-name .sidebar .profile-mobile,
-.sidebar .jsss .logout-mobile .notification-name .bell-mobile, .jsss .logout-mobile .notification-name .sidebar .bell-mobile,
-.sidebar .jsss .logout-mobile .notification-name .wallet-mobile, .jsss .logout-mobile .notification-name .sidebar .wallet-mobile,
-.sidebar .jsss .logout-mobile .notification-name .exit-mobile, .jsss .logout-mobile .notification-name .sidebar .exit-mobile,
-.sidebar .jsss .logout-mobile .cash-name .profile-mobile, .jsss .logout-mobile .cash-name .sidebar .profile-mobile,
-.sidebar .jsss .logout-mobile .cash-name .bell-mobile, .jsss .logout-mobile .cash-name .sidebar .bell-mobile,
-.sidebar .jsss .logout-mobile .cash-name .wallet-mobile, .jsss .logout-mobile .cash-name .sidebar .wallet-mobile,
-.sidebar .jsss .logout-mobile .cash-name .exit-mobile, .jsss .logout-mobile .cash-name .sidebar .exit-mobile,
-.sidebar .jsss .logout-mobile .logout-name .profile-mobile, .jsss .logout-mobile .logout-name .sidebar .profile-mobile,
-.sidebar .jsss .logout-mobile .logout-name .bell-mobile, .jsss .logout-mobile .logout-name .sidebar .bell-mobile,
-.sidebar .jsss .logout-mobile .logout-name .wallet-mobile, .jsss .logout-mobile .logout-name .sidebar .wallet-mobile,
-.sidebar .jsss .logout-mobile .logout-name .exit-mobile, .jsss .logout-mobile .logout-name .sidebar .exit-mobile {
+.sidebar .test .linkimg, .sidebar .test .mobile-topbar .user-mobile .profile-name .profile-mobile,
+.sidebar .test .mobile-topbar .user-mobile .profile-name .bell-mobile,
+.sidebar .test .mobile-topbar .user-mobile .profile-name .wallet-mobile,
+.sidebar .test .mobile-topbar .user-mobile .profile-name .exit-mobile,
+.sidebar .test .mobile-topbar .user-mobile .notification-name .profile-mobile,
+.sidebar .test .mobile-topbar .user-mobile .notification-name .bell-mobile,
+.sidebar .test .mobile-topbar .user-mobile .notification-name .wallet-mobile,
+.sidebar .test .mobile-topbar .user-mobile .notification-name .exit-mobile,
+.sidebar .test .mobile-topbar .user-mobile .cash-name .profile-mobile,
+.sidebar .test .mobile-topbar .user-mobile .cash-name .bell-mobile,
+.sidebar .test .mobile-topbar .user-mobile .cash-name .wallet-mobile,
+.sidebar .test .mobile-topbar .user-mobile .cash-name .exit-mobile,
+.sidebar .test .mobile-topbar .user-mobile .logout-name .profile-mobile,
+.sidebar .test .mobile-topbar .user-mobile .logout-name .bell-mobile,
+.sidebar .test .mobile-topbar .user-mobile .logout-name .wallet-mobile,
+.sidebar .test .mobile-topbar .user-mobile .logout-name .exit-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .profile-name .profile-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .profile-name .bell-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .profile-name .wallet-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .profile-name .exit-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .notification-name .profile-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .notification-name .bell-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .notification-name .wallet-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .notification-name .exit-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .cash-name .profile-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .cash-name .bell-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .cash-name .wallet-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .cash-name .exit-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .logout-name .profile-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .logout-name .bell-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .logout-name .wallet-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .logout-name .exit-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .profile-name .profile-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .profile-name .bell-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .profile-name .wallet-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .profile-name .exit-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .notification-name .profile-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .notification-name .bell-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .notification-name .wallet-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .notification-name .exit-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .cash-name .profile-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .cash-name .bell-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .cash-name .wallet-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .cash-name .exit-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .logout-name .profile-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .logout-name .bell-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .logout-name .wallet-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .logout-name .exit-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .profile-name .profile-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .profile-name .bell-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .profile-name .wallet-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .profile-name .exit-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .notification-name .profile-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .notification-name .bell-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .notification-name .wallet-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .notification-name .exit-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .cash-name .profile-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .cash-name .bell-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .cash-name .wallet-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .cash-name .exit-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .logout-name .profile-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .logout-name .bell-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .logout-name .wallet-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .logout-name .exit-mobile {
   width: 20px;
   height: 20px;
   fill: #818181;
@@ -1070,12 +960,12 @@ template {
   top: 4px;
 }
 
-.sidebar .meneger {
+.sidebar .test .meneger {
   border-bottom: 1px solid #333333;
   padding-bottom: 10px;
 }
 
-.sidebar .meneger h1 {
+.sidebar .test .meneger h1 {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -1084,35 +974,40 @@ template {
   margin-bottom: 20px;
 }
 
-.sidebar .meneger P {
+.sidebar .test .meneger P {
   color: #83a3b9;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   padding-left: 20px;
 }
 
-.sidebar .meneger .avatar {
+.sidebar .test .meneger .avatar {
   display: -ms-flexbox;
   display: flex;
   padding-left: 20px;
 }
 
-.sidebar .meneger .avatar p {
+.sidebar .test .meneger .avatar p {
   padding-left: 15px;
 }
 
-.sidebar .user-mobile,
-.sidebar .notification-mobile,
-.sidebar .cash-mobile,
-.sidebar .logout-mobile {
-  border-bottom: 1px solid #333333;
+.sidebar .test .mobile-topbar {
+  border-top: 1px solid #333333;
   display: none;
+  margin-top: 20px;
 }
 
-.sidebar .user-mobile h1,
-.sidebar .notification-mobile h1,
-.sidebar .cash-mobile h1,
-.sidebar .logout-mobile h1 {
+.sidebar .test .mobile-topbar .user-mobile,
+.sidebar .test .mobile-topbar .notification-mobile,
+.sidebar .test .mobile-topbar .cash-mobile,
+.sidebar .test .mobile-topbar .logout-mobile {
+  border-bottom: 1px solid #333333;
+}
+
+.sidebar .test .mobile-topbar .user-mobile h1,
+.sidebar .test .mobile-topbar .notification-mobile h1,
+.sidebar .test .mobile-topbar .cash-mobile h1,
+.sidebar .test .mobile-topbar .logout-mobile h1 {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   color: #999999;
@@ -1120,43 +1015,43 @@ template {
   margin-bottom: 10px;
 }
 
-.sidebar .user-mobile .profile-name,
-.sidebar .user-mobile .notification-name,
-.sidebar .user-mobile .cash-name,
-.sidebar .user-mobile .logout-name,
-.sidebar .notification-mobile .profile-name,
-.sidebar .notification-mobile .notification-name,
-.sidebar .notification-mobile .cash-name,
-.sidebar .notification-mobile .logout-name,
-.sidebar .cash-mobile .profile-name,
-.sidebar .cash-mobile .notification-name,
-.sidebar .cash-mobile .cash-name,
-.sidebar .cash-mobile .logout-name,
-.sidebar .logout-mobile .profile-name,
-.sidebar .logout-mobile .notification-name,
-.sidebar .logout-mobile .cash-name,
-.sidebar .logout-mobile .logout-name {
+.sidebar .test .mobile-topbar .user-mobile .profile-name,
+.sidebar .test .mobile-topbar .user-mobile .notification-name,
+.sidebar .test .mobile-topbar .user-mobile .cash-name,
+.sidebar .test .mobile-topbar .user-mobile .logout-name,
+.sidebar .test .mobile-topbar .notification-mobile .profile-name,
+.sidebar .test .mobile-topbar .notification-mobile .notification-name,
+.sidebar .test .mobile-topbar .notification-mobile .cash-name,
+.sidebar .test .mobile-topbar .notification-mobile .logout-name,
+.sidebar .test .mobile-topbar .cash-mobile .profile-name,
+.sidebar .test .mobile-topbar .cash-mobile .notification-name,
+.sidebar .test .mobile-topbar .cash-mobile .cash-name,
+.sidebar .test .mobile-topbar .cash-mobile .logout-name,
+.sidebar .test .mobile-topbar .logout-mobile .profile-name,
+.sidebar .test .mobile-topbar .logout-mobile .notification-name,
+.sidebar .test .mobile-topbar .logout-mobile .cash-name,
+.sidebar .test .mobile-topbar .logout-mobile .logout-name {
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding-left: 20px;
 }
 
-.sidebar .user-mobile .profile-name .user-name-mobile,
-.sidebar .user-mobile .notification-name .user-name-mobile,
-.sidebar .user-mobile .cash-name .user-name-mobile,
-.sidebar .user-mobile .logout-name .user-name-mobile,
-.sidebar .notification-mobile .profile-name .user-name-mobile,
-.sidebar .notification-mobile .notification-name .user-name-mobile,
-.sidebar .notification-mobile .cash-name .user-name-mobile,
-.sidebar .notification-mobile .logout-name .user-name-mobile,
-.sidebar .cash-mobile .profile-name .user-name-mobile,
-.sidebar .cash-mobile .notification-name .user-name-mobile,
-.sidebar .cash-mobile .cash-name .user-name-mobile,
-.sidebar .cash-mobile .logout-name .user-name-mobile,
-.sidebar .logout-mobile .profile-name .user-name-mobile,
-.sidebar .logout-mobile .notification-name .user-name-mobile,
-.sidebar .logout-mobile .cash-name .user-name-mobile,
-.sidebar .logout-mobile .logout-name .user-name-mobile {
+.sidebar .test .mobile-topbar .user-mobile .profile-name .user-name-mobile,
+.sidebar .test .mobile-topbar .user-mobile .notification-name .user-name-mobile,
+.sidebar .test .mobile-topbar .user-mobile .cash-name .user-name-mobile,
+.sidebar .test .mobile-topbar .user-mobile .logout-name .user-name-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .profile-name .user-name-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .notification-name .user-name-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .cash-name .user-name-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .logout-name .user-name-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .profile-name .user-name-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .notification-name .user-name-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .cash-name .user-name-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .logout-name .user-name-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .profile-name .user-name-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .notification-name .user-name-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .cash-name .user-name-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .logout-name .user-name-mobile {
   margin-right: 20px;
   margin-left: 5px;
   font-size: 13px;
@@ -1164,201 +1059,101 @@ template {
   color: #83a3b9;
 }
 
-.sidebar .cash-mobile .cash-name-mobile,
-.sidebar .cash-mobile .notification-name-mobile,
-.sidebar .cash-mobile .logout-name-mobile,
-.sidebar .notification-mobile .cash-name-mobile,
-.sidebar .notification-mobile .notification-name-mobile,
-.sidebar .notification-mobile .logout-name-mobile,
-.sidebar .logout-mobile .cash-name-mobile,
-.sidebar .logout-mobile .notification-name-mobile,
-.sidebar .logout-mobile .logout-name-mobile {
+.sidebar .test .mobile-topbar .user-mobile .profile-name .profile-mobile,
+.sidebar .test .mobile-topbar .user-mobile .notification-name .profile-mobile,
+.sidebar .test .mobile-topbar .user-mobile .cash-name .profile-mobile,
+.sidebar .test .mobile-topbar .user-mobile .logout-name .profile-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .profile-name .profile-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .notification-name .profile-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .cash-name .profile-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .logout-name .profile-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .profile-name .profile-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .notification-name .profile-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .cash-name .profile-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .logout-name .profile-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .profile-name .profile-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .notification-name .profile-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .cash-name .profile-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .logout-name .profile-mobile {
+  margin-top: 7px;
+}
+
+.sidebar .test .mobile-topbar .cash-mobile .cash-name-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .notification-name-mobile,
+.sidebar .test .mobile-topbar .cash-mobile .logout-name-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .cash-name-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .notification-name-mobile,
+.sidebar .test .mobile-topbar .notification-mobile .logout-name-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .cash-name-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .notification-name-mobile,
+.sidebar .test .mobile-topbar .logout-mobile .logout-name-mobile {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   color: #9c9c9c;
   margin: 10px;
   position: relative;
   bottom: 6px;
-  display: none;
 }
 
 @media (max-width: 992px) {
   .sidebar {
     width: 50px;
   }
-  .sidebar .navbutton {
+  .sidebar .test .navbutton {
     display: block;
     margin-right: 0;
     margin-bottom: 0;
   }
-  .sidebar ul {
+  .sidebar .test ul {
     border: none;
   }
-  .sidebar .logo {
+  .sidebar .test .logo {
     display: none;
   }
-  .sidebar a {
+  .sidebar .test a {
     display: none;
   }
-  .sidebar .meneger {
+  .sidebar .test .meneger {
     display: none;
   }
-  .sidebar svg {
+  .sidebar .test svg {
     display: none;
   }
 }
 
-.sidebar, .jsss {
+.sidebar.jsss {
   width: 200px;
+  z-index: 999;
 }
 
-.sidebar .navbutton, .jsss .navbutton {
+.sidebar.jsss .test .navbutton {
   display: block;
   margin-right: 0;
   margin-bottom: 0;
 }
 
-.sidebar ul, .jsss ul {
+.sidebar.jsss .test ul {
   border-bottom: 1px solid #333333;
 }
 
-.sidebar .logo, .jsss .logo {
+.sidebar.jsss .test .logo {
   display: initial;
 }
 
-.sidebar a, .jsss a {
+.sidebar.jsss .test a {
   display: initial;
 }
 
-.sidebar .meneger, .jsss .meneger {
+.sidebar.jsss .test .meneger {
   display: initial;
 }
 
-.sidebar svg, .jsss svg {
+.sidebar.jsss .test svg {
   display: initial;
 }
 
-.sidebar .user-mobile,
-.sidebar .notification-mobile,
-.sidebar .cash-mobile,
-.sidebar .logout-mobile, .jsss .user-mobile,
-.jsss .notification-mobile,
-.jsss .cash-mobile,
-.jsss .logout-mobile {
-  border-bottom: 1px solid #333333;
-}
-
-.sidebar .user-mobile h1,
-.sidebar .notification-mobile h1,
-.sidebar .cash-mobile h1,
-.sidebar .logout-mobile h1, .jsss .user-mobile h1,
-.jsss .notification-mobile h1,
-.jsss .cash-mobile h1,
-.jsss .logout-mobile h1 {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: #999999;
-  padding-left: 20px;
-  margin-bottom: 10px;
-}
-
-.sidebar .user-mobile .profile-name,
-.sidebar .user-mobile .notification-name,
-.sidebar .user-mobile .cash-name,
-.sidebar .user-mobile .logout-name,
-.sidebar .notification-mobile .profile-name,
-.sidebar .notification-mobile .notification-name,
-.sidebar .notification-mobile .cash-name,
-.sidebar .notification-mobile .logout-name,
-.sidebar .cash-mobile .profile-name,
-.sidebar .cash-mobile .notification-name,
-.sidebar .cash-mobile .cash-name,
-.sidebar .cash-mobile .logout-name,
-.sidebar .logout-mobile .profile-name,
-.sidebar .logout-mobile .notification-name,
-.sidebar .logout-mobile .cash-name,
-.sidebar .logout-mobile .logout-name, .jsss .user-mobile .profile-name,
-.jsss .user-mobile .notification-name,
-.jsss .user-mobile .cash-name,
-.jsss .user-mobile .logout-name,
-.jsss .notification-mobile .profile-name,
-.jsss .notification-mobile .notification-name,
-.jsss .notification-mobile .cash-name,
-.jsss .notification-mobile .logout-name,
-.jsss .cash-mobile .profile-name,
-.jsss .cash-mobile .notification-name,
-.jsss .cash-mobile .cash-name,
-.jsss .cash-mobile .logout-name,
-.jsss .logout-mobile .profile-name,
-.jsss .logout-mobile .notification-name,
-.jsss .logout-mobile .cash-name,
-.jsss .logout-mobile .logout-name {
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding-left: 20px;
-}
-
-.sidebar .user-mobile .profile-name .user-name-mobile,
-.sidebar .user-mobile .notification-name .user-name-mobile,
-.sidebar .user-mobile .cash-name .user-name-mobile,
-.sidebar .user-mobile .logout-name .user-name-mobile,
-.sidebar .notification-mobile .profile-name .user-name-mobile,
-.sidebar .notification-mobile .notification-name .user-name-mobile,
-.sidebar .notification-mobile .cash-name .user-name-mobile,
-.sidebar .notification-mobile .logout-name .user-name-mobile,
-.sidebar .cash-mobile .profile-name .user-name-mobile,
-.sidebar .cash-mobile .notification-name .user-name-mobile,
-.sidebar .cash-mobile .cash-name .user-name-mobile,
-.sidebar .cash-mobile .logout-name .user-name-mobile,
-.sidebar .logout-mobile .profile-name .user-name-mobile,
-.sidebar .logout-mobile .notification-name .user-name-mobile,
-.sidebar .logout-mobile .cash-name .user-name-mobile,
-.sidebar .logout-mobile .logout-name .user-name-mobile, .jsss .user-mobile .profile-name .user-name-mobile,
-.jsss .user-mobile .notification-name .user-name-mobile,
-.jsss .user-mobile .cash-name .user-name-mobile,
-.jsss .user-mobile .logout-name .user-name-mobile,
-.jsss .notification-mobile .profile-name .user-name-mobile,
-.jsss .notification-mobile .notification-name .user-name-mobile,
-.jsss .notification-mobile .cash-name .user-name-mobile,
-.jsss .notification-mobile .logout-name .user-name-mobile,
-.jsss .cash-mobile .profile-name .user-name-mobile,
-.jsss .cash-mobile .notification-name .user-name-mobile,
-.jsss .cash-mobile .cash-name .user-name-mobile,
-.jsss .cash-mobile .logout-name .user-name-mobile,
-.jsss .logout-mobile .profile-name .user-name-mobile,
-.jsss .logout-mobile .notification-name .user-name-mobile,
-.jsss .logout-mobile .cash-name .user-name-mobile,
-.jsss .logout-mobile .logout-name .user-name-mobile {
-  margin-right: 20px;
-  margin-left: 5px;
-  font-size: 13px;
-  font-family: "Roboto", sans-serif;
-  color: #83a3b9;
-}
-
-.sidebar .cash-mobile .cash-name-mobile,
-.sidebar .cash-mobile .notification-name-mobile,
-.sidebar .cash-mobile .logout-name-mobile,
-.sidebar .notification-mobile .cash-name-mobile,
-.sidebar .notification-mobile .notification-name-mobile,
-.sidebar .notification-mobile .logout-name-mobile,
-.sidebar .logout-mobile .cash-name-mobile,
-.sidebar .logout-mobile .notification-name-mobile,
-.sidebar .logout-mobile .logout-name-mobile, .jsss .cash-mobile .cash-name-mobile,
-.jsss .cash-mobile .notification-name-mobile,
-.jsss .cash-mobile .logout-name-mobile,
-.jsss .notification-mobile .cash-name-mobile,
-.jsss .notification-mobile .notification-name-mobile,
-.jsss .notification-mobile .logout-name-mobile,
-.jsss .logout-mobile .cash-name-mobile,
-.jsss .logout-mobile .notification-name-mobile,
-.jsss .logout-mobile .logout-name-mobile {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: #9c9c9c;
-  margin: 10px;
-  position: relative;
-  bottom: 6px;
+.sidebar.jsss .test .mobile-topbar {
+  display: block;
 }
 
 /* Colors */
@@ -1397,7 +1192,8 @@ template {
 
 .general-statistic .calendar .date-period input {
   border: none;
-  text-align: center;
+  text-align: left;
+  padding-left: 10px;
   width: 150px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -1547,6 +1343,7 @@ template {
     width: 100px;
     margin: 0 auto;
     display: block;
+    text-align: center;
   }
   .general-statistic .calendar .date-period input:nth-of-type(2) {
     border-left: none;
@@ -1727,47 +1524,5 @@ body {
 
 p {
   margin: 1em 0;
-}
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 999;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  overflow: auto;
-  padding: 30px;
-  display: none;
-}
-
-.overlay.show {
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.modal {
-  max-width: 600px;
-  margin: auto;
-  background-color: #ffffff;
-  position: relative;
-  padding: 30px;
-  display: none;
-}
-
-.modal.show {
-  display: block;
-}
-
-.modal .btn-close {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 5px 10px;
 }
 /*# sourceMappingURL=style.css.map */
