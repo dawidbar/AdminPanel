@@ -2,1549 +2,406 @@
 /* Font sizes */
 /* Fonts */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-/* Document
-   ========================================================================== */
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+/* Document ========================================================================== */
+/** 1. Correct the line height in all browsers. 2. Prevent adjustments of font size after orientation changes in iOS. */
+html { line-height: 1.15; /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 
-/* Sections
-     ========================================================================== */
-/**
-   * Remove the margin in all browsers.
-   */
-body {
-  margin: 0;
-}
+/* Sections ========================================================================== */
+/** Remove the margin in all browsers. */
+body { margin: 0; }
 
-/**
-   * Render the `main` element consistently in IE.
-   */
-main {
-  display: block;
-}
+/** Render the `main` element consistently in IE. */
+main { display: block; }
 
-/**
-   * Correct the font size and margin on `h1` elements within `section` and
-   * `article` contexts in Chrome, Firefox, and Safari.
-   */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
+/** Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Firefox, and Safari. */
+h1 { font-size: 2em; margin: 0.67em 0; }
 
-/* Grouping content
-     ========================================================================== */
-/**
-   * 1. Add the correct box sizing in Firefox.
-   * 2. Show the overflow in Edge and IE.
-   */
-hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
-}
+/* Grouping content ========================================================================== */
+/** 1. Add the correct box sizing in Firefox. 2. Show the overflow in Edge and IE. */
+hr { box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ }
 
-/**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
-   */
-pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
-}
+/** 1. Correct the inheritance and scaling of font size in all browsers. 2. Correct the odd `em` font sizing in all browsers. */
+pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
 
-/* Text-level semantics
-     ========================================================================== */
-/**
-   * Remove the gray background on active links in IE 10.
-   */
-a {
-  background-color: transparent;
-}
+/* Text-level semantics ========================================================================== */
+/** Remove the gray background on active links in IE 10. */
+a { background-color: transparent; }
 
-/**
-   * 1. Remove the bottom border in Chrome 57-
-   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
-   */
-abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
-}
+/** 1. Remove the bottom border in Chrome 57- 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */
+abbr[title] { border-bottom: none; /* 1 */ text-decoration: underline; /* 2 */ text-decoration: underline dotted; /* 2 */ }
 
-/**
-   * Add the correct font weight in Chrome, Edge, and Safari.
-   */
-b,
-strong {
-  font-weight: bolder;
-}
+/** Add the correct font weight in Chrome, Edge, and Safari. */
+b, strong { font-weight: bolder; }
 
-/**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
-   */
-code,
-kbd,
-samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
-}
+/** 1. Correct the inheritance and scaling of font size in all browsers. 2. Correct the odd `em` font sizing in all browsers. */
+code, kbd, samp { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
 
-/**
-   * Add the correct font size in all browsers.
-   */
-small {
-  font-size: 80%;
-}
+/** Add the correct font size in all browsers. */
+small { font-size: 80%; }
 
-/**
-   * Prevent `sub` and `sup` elements from affecting the line height in
-   * all browsers.
-   */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
+/** Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
 
-sub {
-  bottom: -0.25em;
-}
+sub { bottom: -0.25em; }
 
-sup {
-  top: -0.5em;
-}
+sup { top: -0.5em; }
 
-/* Embedded content
-     ========================================================================== */
-/**
-   * Remove the border on images inside links in IE 10.
-   */
-img {
-  border-style: none;
-}
+/* Embedded content ========================================================================== */
+/** Remove the border on images inside links in IE 10. */
+img { border-style: none; }
 
-/* Forms
-     ========================================================================== */
-/**
-   * 1. Change the font styles in all browsers.
-   * 2. Remove the margin in Firefox and Safari.
-   */
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
-}
+/* Forms ========================================================================== */
+/** 1. Change the font styles in all browsers. 2. Remove the margin in Firefox and Safari. */
+button, input, optgroup, select, textarea { font-family: inherit; /* 1 */ font-size: 100%; /* 1 */ line-height: 1.15; /* 1 */ margin: 0; /* 2 */ }
 
-/**
-   * Show the overflow in IE.
-   * 1. Show the overflow in Edge.
-   */
-button,
-input {
-  /* 1 */
-  overflow: visible;
-}
+/** Show the overflow in IE. 1. Show the overflow in Edge. */
+button, input { /* 1 */ overflow: visible; }
 
-/**
-   * Remove the inheritance of text transform in Edge, Firefox, and IE.
-   * 1. Remove the inheritance of text transform in Firefox.
-   */
-button,
-select {
-  /* 1 */
-  text-transform: none;
-}
+/** Remove the inheritance of text transform in Edge, Firefox, and IE. 1. Remove the inheritance of text transform in Firefox. */
+button, select { /* 1 */ text-transform: none; }
 
-/**
-   * Correct the inability to style clickable types in iOS and Safari.
-   */
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
+/** Correct the inability to style clickable types in iOS and Safari. */
+button, [type="button"], [type="reset"], [type="submit"] { -webkit-appearance: button; }
 
-/**
-   * Remove the inner border and padding in Firefox.
-   */
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
+/** Remove the inner border and padding in Firefox. */
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner { border-style: none; padding: 0; }
 
-/**
-   * Restore the focus styles unset by the previous rule.
-   */
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+/** Restore the focus styles unset by the previous rule. */
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring { outline: 1px dotted ButtonText; }
 
-/**
-   * Correct the padding in Firefox.
-   */
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+/** Correct the padding in Firefox. */
+fieldset { padding: 0.35em 0.75em 0.625em; }
 
-/**
-   * 1. Correct the text wrapping in Edge and IE.
-   * 2. Correct the color inheritance from `fieldset` elements in IE.
-   * 3. Remove the padding so developers are not caught out when they zero out
-   *    `fieldset` elements in all browsers.
-   */
-legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
-}
+/** 1. Correct the text wrapping in Edge and IE. 2. Correct the color inheritance from `fieldset` elements in IE. 3. Remove the padding so developers are not caught out when they zero out `fieldset` elements in all browsers. */
+legend { box-sizing: border-box; /* 1 */ color: inherit; /* 2 */ display: table; /* 1 */ max-width: 100%; /* 1 */ padding: 0; /* 3 */ white-space: normal; /* 1 */ }
 
-/**
-   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
-   */
-progress {
-  vertical-align: baseline;
-}
+/** Add the correct vertical alignment in Chrome, Firefox, and Opera. */
+progress { vertical-align: baseline; }
 
-/**
-   * Remove the default vertical scrollbar in IE 10+.
-   */
-textarea {
-  overflow: auto;
-}
+/** Remove the default vertical scrollbar in IE 10+. */
+textarea { overflow: auto; }
 
-/**
-   * 1. Add the correct box sizing in IE 10.
-   * 2. Remove the padding in IE 10.
-   */
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
-}
+/** 1. Add the correct box sizing in IE 10. 2. Remove the padding in IE 10. */
+[type="checkbox"], [type="radio"] { box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
 
-/**
-   * Correct the cursor style of increment and decrement buttons in Chrome.
-   */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+/** Correct the cursor style of increment and decrement buttons in Chrome. */
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button { height: auto; }
 
-/**
-   * 1. Correct the odd appearance in Chrome and Safari.
-   * 2. Correct the outline style in Safari.
-   */
-[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
-}
+/** 1. Correct the odd appearance in Chrome and Safari. 2. Correct the outline style in Safari. */
+[type="search"] { -webkit-appearance: textfield; /* 1 */ outline-offset: -2px; /* 2 */ }
 
-/**
-   * Remove the inner padding in Chrome and Safari on macOS.
-   */
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+/** Remove the inner padding in Chrome and Safari on macOS. */
+[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
 
-/**
-   * 1. Correct the inability to style clickable types in iOS and Safari.
-   * 2. Change font properties to `inherit` in Safari.
-   */
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-}
+/** 1. Correct the inability to style clickable types in iOS and Safari. 2. Change font properties to `inherit` in Safari. */
+::-webkit-file-upload-button { -webkit-appearance: button; /* 1 */ font: inherit; /* 2 */ }
 
-/* Interactive
-     ========================================================================== */
-/*
-   * Add the correct display in Edge, IE 10+, and Firefox.
-   */
-details {
-  display: block;
-}
+/* Interactive ========================================================================== */
+/* Add the correct display in Edge, IE 10+, and Firefox. */
+details { display: block; }
 
-/*
-   * Add the correct display in all browsers.
-   */
-summary {
-  display: list-item;
-}
+/* Add the correct display in all browsers. */
+summary { display: list-item; }
 
-/* Misc
-     ========================================================================== */
-/**
-   * Add the correct display in IE 10+.
-   */
-template {
-  display: none;
-}
+/* Misc ========================================================================== */
+/** Add the correct display in IE 10+. */
+template { display: none; }
 
-/**
-   * Add the correct display in IE 10.
-   */
-[hidden] {
-  display: none;
-}
+/** Add the correct display in IE 10. */
+[hidden] { display: none; }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-@media (max-width: 767px) {
-  .col-sm-1 {
-    -ms-flex: 0 0 8.33333%;
-        flex: 0 0 8.33333%;
-    max-width: 8.33333%;
-  }
-  .col-sm-2 {
-    -ms-flex: 0 0 16.66667%;
-        flex: 0 0 16.66667%;
-    max-width: 16.66667%;
-  }
-  .col-sm-3 {
-    -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-    max-width: 25%;
-  }
-  .col-sm-4 {
-    -ms-flex: 0 0 33.33333%;
-        flex: 0 0 33.33333%;
-    max-width: 33.33333%;
-  }
-  .col-sm-5 {
-    -ms-flex: 0 0 41.66667%;
-        flex: 0 0 41.66667%;
-    max-width: 41.66667%;
-  }
-  .col-sm-6 {
-    -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-    max-width: 50%;
-  }
-  .col-sm-7 {
-    -ms-flex: 0 0 58.33333%;
-        flex: 0 0 58.33333%;
-    max-width: 58.33333%;
-  }
-  .col-sm-8 {
-    -ms-flex: 0 0 66.66667%;
-        flex: 0 0 66.66667%;
-    max-width: 66.66667%;
-  }
-  .col-sm-9 {
-    -ms-flex: 0 0 75%;
-        flex: 0 0 75%;
-    max-width: 75%;
-  }
-  .col-sm-10 {
-    -ms-flex: 0 0 83.33333%;
-        flex: 0 0 83.33333%;
-    max-width: 83.33333%;
-  }
-  .col-sm-11 {
-    -ms-flex: 0 0 91.66667%;
-        flex: 0 0 91.66667%;
-    max-width: 91.66667%;
-  }
-  .col-sm-12 {
-    -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-    max-width: 100%;
-  }
-}
+@media (max-width: 767px) { .col-sm-1 { -ms-flex: 0 0 8.33333%; flex: 0 0 8.33333%; max-width: 8.33333%; }
+  .col-sm-2 { -ms-flex: 0 0 16.66667%; flex: 0 0 16.66667%; max-width: 16.66667%; }
+  .col-sm-3 { -ms-flex: 0 0 25%; flex: 0 0 25%; max-width: 25%; }
+  .col-sm-4 { -ms-flex: 0 0 33.33333%; flex: 0 0 33.33333%; max-width: 33.33333%; }
+  .col-sm-5 { -ms-flex: 0 0 41.66667%; flex: 0 0 41.66667%; max-width: 41.66667%; }
+  .col-sm-6 { -ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%; }
+  .col-sm-7 { -ms-flex: 0 0 58.33333%; flex: 0 0 58.33333%; max-width: 58.33333%; }
+  .col-sm-8 { -ms-flex: 0 0 66.66667%; flex: 0 0 66.66667%; max-width: 66.66667%; }
+  .col-sm-9 { -ms-flex: 0 0 75%; flex: 0 0 75%; max-width: 75%; }
+  .col-sm-10 { -ms-flex: 0 0 83.33333%; flex: 0 0 83.33333%; max-width: 83.33333%; }
+  .col-sm-11 { -ms-flex: 0 0 91.66667%; flex: 0 0 91.66667%; max-width: 91.66667%; }
+  .col-sm-12 { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; } }
 
-@media (min-width: 768px) {
-  .col-md-1 {
-    -ms-flex: 0 0 8.33333%;
-        flex: 0 0 8.33333%;
-    max-width: 8.33333%;
-  }
-  .col-md-2 {
-    -ms-flex: 0 0 16.66667%;
-        flex: 0 0 16.66667%;
-    max-width: 16.66667%;
-  }
-  .col-md-3 {
-    -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-    max-width: 25%;
-  }
-  .col-md-4 {
-    -ms-flex: 0 0 33.33333%;
-        flex: 0 0 33.33333%;
-    max-width: 33.33333%;
-  }
-  .col-md-5 {
-    -ms-flex: 0 0 41.66667%;
-        flex: 0 0 41.66667%;
-    max-width: 41.66667%;
-  }
-  .col-md-6 {
-    -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-    max-width: 50%;
-  }
-  .col-md-7 {
-    -ms-flex: 0 0 58.33333%;
-        flex: 0 0 58.33333%;
-    max-width: 58.33333%;
-  }
-  .col-md-8 {
-    -ms-flex: 0 0 66.66667%;
-        flex: 0 0 66.66667%;
-    max-width: 66.66667%;
-  }
-  .col-md-9 {
-    -ms-flex: 0 0 75%;
-        flex: 0 0 75%;
-    max-width: 75%;
-  }
-  .col-md-10 {
-    -ms-flex: 0 0 83.33333%;
-        flex: 0 0 83.33333%;
-    max-width: 83.33333%;
-  }
-  .col-md-11 {
-    -ms-flex: 0 0 91.66667%;
-        flex: 0 0 91.66667%;
-    max-width: 91.66667%;
-  }
-  .col-md-12 {
-    -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-    max-width: 100%;
-  }
-}
+@media (min-width: 768px) { .col-md-1 { -ms-flex: 0 0 8.33333%; flex: 0 0 8.33333%; max-width: 8.33333%; }
+  .col-md-2 { -ms-flex: 0 0 16.66667%; flex: 0 0 16.66667%; max-width: 16.66667%; }
+  .col-md-3 { -ms-flex: 0 0 25%; flex: 0 0 25%; max-width: 25%; }
+  .col-md-4 { -ms-flex: 0 0 33.33333%; flex: 0 0 33.33333%; max-width: 33.33333%; }
+  .col-md-5 { -ms-flex: 0 0 41.66667%; flex: 0 0 41.66667%; max-width: 41.66667%; }
+  .col-md-6 { -ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%; }
+  .col-md-7 { -ms-flex: 0 0 58.33333%; flex: 0 0 58.33333%; max-width: 58.33333%; }
+  .col-md-8 { -ms-flex: 0 0 66.66667%; flex: 0 0 66.66667%; max-width: 66.66667%; }
+  .col-md-9 { -ms-flex: 0 0 75%; flex: 0 0 75%; max-width: 75%; }
+  .col-md-10 { -ms-flex: 0 0 83.33333%; flex: 0 0 83.33333%; max-width: 83.33333%; }
+  .col-md-11 { -ms-flex: 0 0 91.66667%; flex: 0 0 91.66667%; max-width: 91.66667%; }
+  .col-md-12 { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; } }
 
-@media (min-width: 992px) {
-  .col-lg-1 {
-    -ms-flex: 0 0 8.33333%;
-        flex: 0 0 8.33333%;
-    max-width: 8.33333%;
-  }
-  .col-lg-2 {
-    -ms-flex: 0 0 16.66667%;
-        flex: 0 0 16.66667%;
-    max-width: 16.66667%;
-  }
-  .col-lg-3 {
-    -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-    max-width: 25%;
-  }
-  .col-lg-4 {
-    -ms-flex: 0 0 33.33333%;
-        flex: 0 0 33.33333%;
-    max-width: 33.33333%;
-  }
-  .col-lg-5 {
-    -ms-flex: 0 0 41.66667%;
-        flex: 0 0 41.66667%;
-    max-width: 41.66667%;
-  }
-  .col-lg-6 {
-    -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-    max-width: 50%;
-  }
-  .col-lg-7 {
-    -ms-flex: 0 0 58.33333%;
-        flex: 0 0 58.33333%;
-    max-width: 58.33333%;
-  }
-  .col-lg-8 {
-    -ms-flex: 0 0 66.66667%;
-        flex: 0 0 66.66667%;
-    max-width: 66.66667%;
-  }
-  .col-lg-9 {
-    -ms-flex: 0 0 75%;
-        flex: 0 0 75%;
-    max-width: 75%;
-  }
-  .col-lg-10 {
-    -ms-flex: 0 0 83.33333%;
-        flex: 0 0 83.33333%;
-    max-width: 83.33333%;
-  }
-  .col-lg-11 {
-    -ms-flex: 0 0 91.66667%;
-        flex: 0 0 91.66667%;
-    max-width: 91.66667%;
-  }
-  .col-lg-12 {
-    -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-    max-width: 100%;
-  }
-}
+@media (min-width: 992px) { .col-lg-1 { -ms-flex: 0 0 8.33333%; flex: 0 0 8.33333%; max-width: 8.33333%; }
+  .col-lg-2 { -ms-flex: 0 0 16.66667%; flex: 0 0 16.66667%; max-width: 16.66667%; }
+  .col-lg-3 { -ms-flex: 0 0 25%; flex: 0 0 25%; max-width: 25%; }
+  .col-lg-4 { -ms-flex: 0 0 33.33333%; flex: 0 0 33.33333%; max-width: 33.33333%; }
+  .col-lg-5 { -ms-flex: 0 0 41.66667%; flex: 0 0 41.66667%; max-width: 41.66667%; }
+  .col-lg-6 { -ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%; }
+  .col-lg-7 { -ms-flex: 0 0 58.33333%; flex: 0 0 58.33333%; max-width: 58.33333%; }
+  .col-lg-8 { -ms-flex: 0 0 66.66667%; flex: 0 0 66.66667%; max-width: 66.66667%; }
+  .col-lg-9 { -ms-flex: 0 0 75%; flex: 0 0 75%; max-width: 75%; }
+  .col-lg-10 { -ms-flex: 0 0 83.33333%; flex: 0 0 83.33333%; max-width: 83.33333%; }
+  .col-lg-11 { -ms-flex: 0 0 91.66667%; flex: 0 0 91.66667%; max-width: 91.66667%; }
+  .col-lg-12 { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; } }
 
-@media (min-width: 1200px) {
-  .col-xl-1 {
-    -ms-flex: 0 0 8.33333%;
-        flex: 0 0 8.33333%;
-    max-width: 8.33333%;
-  }
-  .col-xl-2 {
-    -ms-flex: 0 0 16.66667%;
-        flex: 0 0 16.66667%;
-    max-width: 16.66667%;
-  }
-  .col-xl-3 {
-    -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-    max-width: 25%;
-  }
-  .col-xl-4 {
-    -ms-flex: 0 0 33.33333%;
-        flex: 0 0 33.33333%;
-    max-width: 33.33333%;
-  }
-  .col-xl-5 {
-    -ms-flex: 0 0 41.66667%;
-        flex: 0 0 41.66667%;
-    max-width: 41.66667%;
-  }
-  .col-xl-6 {
-    -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-    max-width: 50%;
-  }
-  .col-xl-7 {
-    -ms-flex: 0 0 58.33333%;
-        flex: 0 0 58.33333%;
-    max-width: 58.33333%;
-  }
-  .col-xl-8 {
-    -ms-flex: 0 0 66.66667%;
-        flex: 0 0 66.66667%;
-    max-width: 66.66667%;
-  }
-  .col-xl-9 {
-    -ms-flex: 0 0 75%;
-        flex: 0 0 75%;
-    max-width: 75%;
-  }
-  .col-xl-10 {
-    -ms-flex: 0 0 83.33333%;
-        flex: 0 0 83.33333%;
-    max-width: 83.33333%;
-  }
-  .col-xl-11 {
-    -ms-flex: 0 0 91.66667%;
-        flex: 0 0 91.66667%;
-    max-width: 91.66667%;
-  }
-  .col-xl-12 {
-    -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-    max-width: 100%;
-  }
-}
+@media (min-width: 1200px) { .col-xl-1 { -ms-flex: 0 0 8.33333%; flex: 0 0 8.33333%; max-width: 8.33333%; }
+  .col-xl-2 { -ms-flex: 0 0 16.66667%; flex: 0 0 16.66667%; max-width: 16.66667%; }
+  .col-xl-3 { -ms-flex: 0 0 25%; flex: 0 0 25%; max-width: 25%; }
+  .col-xl-4 { -ms-flex: 0 0 33.33333%; flex: 0 0 33.33333%; max-width: 33.33333%; }
+  .col-xl-5 { -ms-flex: 0 0 41.66667%; flex: 0 0 41.66667%; max-width: 41.66667%; }
+  .col-xl-6 { -ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%; }
+  .col-xl-7 { -ms-flex: 0 0 58.33333%; flex: 0 0 58.33333%; max-width: 58.33333%; }
+  .col-xl-8 { -ms-flex: 0 0 66.66667%; flex: 0 0 66.66667%; max-width: 66.66667%; }
+  .col-xl-9 { -ms-flex: 0 0 75%; flex: 0 0 75%; max-width: 75%; }
+  .col-xl-10 { -ms-flex: 0 0 83.33333%; flex: 0 0 83.33333%; max-width: 83.33333%; }
+  .col-xl-11 { -ms-flex: 0 0 91.66667%; flex: 0 0 91.66667%; max-width: 91.66667%; }
+  .col-xl-12 { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; } }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+.container { width: 100%; max-width: 1200px; margin: 0 auto; }
 
-.container-fluid {
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+.container-fluid { width: 100%; padding-left: 15px; padding-right: 15px; }
 
-.row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
+.row { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
 /* Colors */
 /* Font sizes */
 /* Fonts */
-.topbar {
-  width: 100%;
-  height: 50px;
-  background-color: #fff;
-  border-top: 1px solid #E3E3E3;
-  border-bottom: 1px solid #E3E3E3;
-}
+.topbar { width: 100%; height: 50px; background-color: #fff; border-top: 1px solid #E3E3E3; border-bottom: 1px solid #E3E3E3; }
 
-.topbar .logout {
-  border-right: 1px solid #E3E3E3;
-  height: 100%;
-  float: right;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-}
+.topbar .logout { border-right: 1px solid #E3E3E3; height: 100%; float: right; display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; }
 
-.topbar .logout:hover {
-  background-color: #E3E3E3;
-}
+.topbar .logout:hover { background-color: #E3E3E3; }
 
-.topbar .logout .quit {
-  width: 20px;
-  height: 20px;
-  margin: 20px;
-  fill: #9B9B9B;
-}
+.topbar .logout .quit { width: 20px; height: 20px; margin: 20px; fill: #9B9B9B; }
 
-.topbar .user {
-  border-right: 1px solid #E3E3E3;
-  height: 100%;
-  float: right;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-}
+.topbar .user { border-right: 1px solid #E3E3E3; height: 100%; float: right; display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; }
 
-.topbar .user:hover {
-  background-color: #E3E3E3;
-}
+.topbar .user:hover { background-color: #E3E3E3; }
 
-.topbar .user .user-name {
-  margin-right: 20px;
-  margin-left: 5px;
-  font-size: 13px;
-  font-family: "Roboto", sans-serif;
-  color: #83a3b9;
-}
+.topbar .user .user-name { margin-right: 20px; margin-left: 5px; font-size: 13px; font-family: "Roboto", sans-serif; color: #83a3b9; }
 
-.topbar .user .profile {
-  width: 20px;
-  height: 20px;
-  margin-left: 20px;
-  fill: #9B9B9B;
-}
+.topbar .user .profile { width: 20px; height: 20px; margin-left: 20px; fill: #9B9B9B; }
 
-.topbar .notification {
-  border-right: 1px solid #E3E3E3;
-  height: 100%;
-  float: right;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-}
+.topbar .notification { border-right: 1px solid #E3E3E3; height: 100%; float: right; display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; }
 
-.topbar .notification:hover {
-  background-color: #E3E3E3;
-}
+.topbar .notification:hover { background-color: #E3E3E3; }
 
-.topbar .notification .bell {
-  width: 20px;
-  height: 20px;
-  margin: 20px;
-  fill: #9B9B9B;
-}
+.topbar .notification .bell { width: 20px; height: 20px; margin: 20px; fill: #9B9B9B; }
 
-.topbar .money {
-  border-right: 1px solid #E3E3E3;
-  border-left: 1px solid #E3E3E3;
-  height: 100%;
-  float: right;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-}
+.topbar .money { border-right: 1px solid #E3E3E3; border-left: 1px solid #E3E3E3; height: 100%; float: right; display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; }
 
-.topbar .money:hover {
-  background-color: #E3E3E3;
-}
+.topbar .money:hover { background-color: #E3E3E3; }
 
-.topbar .money .arrow {
-  margin-right: 20px;
-  height: 10px;
-  fill: #9B9B9B;
-  width: 10px;
-}
+.topbar .money .arrow { margin-right: 20px; height: 10px; fill: #9B9B9B; width: 10px; }
 
-.topbar .money .cash {
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  color: #9c9c9c;
-  margin: 10px;
-}
+.topbar .money .cash { font-size: 20px; font-family: "Roboto", sans-serif; color: #9c9c9c; margin: 10px; }
 
-.topbar .money .wallet {
-  width: 20px;
-  height: 20px;
-  margin-left: 20px;
-  fill: #9B9B9B;
-  position: relative;
-  bottom: 2px;
-}
+.topbar .money .wallet { width: 20px; height: 20px; margin-left: 20px; fill: #9B9B9B; position: relative; bottom: 2px; }
 
-@media (max-width: 992px) {
-  .topbar {
-    display: none;
-  }
-}
+@media (max-width: 992px) { .topbar { display: none; } }
 
 /* Colors */
 /* Font sizes */
 /* Fonts */
-.sidebar {
-  width: 200px;
-  height: 100%;
-  background-color: #191919;
-  position: fixed;
-  top: 0;
-  overflow: auto;
-}
+.sidebar { width: 200px; height: 100%; background-color: #191919; position: fixed; top: 0; overflow: auto; }
 
-.sidebar .test {
-  overflow-y: auto;
-}
+.sidebar .test { overflow-y: auto; }
 
-.sidebar .test .navbutton {
-  float: right;
-  padding: 9px 10px;
-  margin-top: 8px;
-  margin-right: 15px;
-  margin-bottom: 8px;
-  background-color: transparent;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  display: none;
-}
+.sidebar .test .navbutton { float: right; padding: 9px 10px; margin-top: 8px; margin-right: 15px; margin-bottom: 8px; background-color: transparent; background-image: none; border: 1px solid transparent; border-radius: 4px; display: none; }
 
-.sidebar .test .icon-bar {
-  display: block;
-  width: 22px;
-  height: 2px;
-  border-radius: 1px;
-  background-color: white;
-  margin: 4px;
-}
+.sidebar .test .icon-bar { display: block; width: 22px; height: 2px; border-radius: 1px; background-color: white; margin: 4px; }
 
-.sidebar .test ul {
-  list-style-type: none;
-  padding-left: 0px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  border-bottom: 1px solid #333333;
-}
+.sidebar .test ul { list-style-type: none; padding-left: 0px; padding-bottom: 20px; padding-top: 20px; border-bottom: 1px solid #333333; }
 
-.sidebar .test ul li {
-  padding-left: 20px;
-}
+.sidebar .test ul li { padding-left: 20px; }
 
-.sidebar .test ul li:hover {
-  background-color: #696c72;
-  border-left: 4px solid #F58220;
-}
+.sidebar .test ul li:hover { background-color: #696c72; border-left: 4px solid #F58220; }
 
-.sidebar .test ul li:hover a {
-  color: #fff;
-}
+.sidebar .test ul li:hover a { color: #fff; }
 
-.sidebar .test ul li:hover .linkimg, .sidebar .test ul li:hover .mobile-topbar .user-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .profile-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .user-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .profile-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .user-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .profile-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .user-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .user-mobile .profile-name ul li:hover .exit-mobile,
-.sidebar .test ul li:hover .mobile-topbar .user-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .user-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .user-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .user-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name ul li:hover .exit-mobile,
-.sidebar .test ul li:hover .mobile-topbar .user-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .user-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .user-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .user-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name ul li:hover .exit-mobile,
-.sidebar .test ul li:hover .mobile-topbar .user-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .user-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .user-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .user-mobile .logout-name .exit-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name ul li:hover .exit-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name ul li:hover .exit-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name ul li:hover .exit-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name ul li:hover .exit-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .notification-mobile .logout-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name ul li:hover .exit-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name ul li:hover .exit-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name ul li:hover .exit-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name ul li:hover .exit-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .cash-mobile .logout-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name ul li:hover .exit-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name ul li:hover .exit-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name ul li:hover .exit-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name ul li:hover .exit-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name ul li:hover .profile-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name ul li:hover .bell-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name ul li:hover .wallet-mobile,
-.sidebar .test ul li:hover .mobile-topbar .logout-mobile .logout-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name ul li:hover .exit-mobile {
-  fill: #fff;
-}
+.sidebar .test ul li:hover .linkimg, .sidebar .test ul li:hover .mobile-topbar .user-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .profile-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .user-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .profile-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .user-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .profile-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .user-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .user-mobile .profile-name ul li:hover .exit-mobile, .sidebar .test ul li:hover .mobile-topbar .user-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .user-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .user-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .user-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name ul li:hover .exit-mobile, .sidebar .test ul li:hover .mobile-topbar .user-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .user-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .user-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .user-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name ul li:hover .exit-mobile, .sidebar .test ul li:hover .mobile-topbar .user-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .user-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .user-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .user-mobile .logout-name .exit-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name ul li:hover .exit-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name ul li:hover .exit-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name ul li:hover .exit-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name ul li:hover .exit-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .notification-mobile .logout-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name ul li:hover .exit-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name ul li:hover .exit-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name ul li:hover .exit-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name ul li:hover .exit-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .cash-mobile .logout-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name ul li:hover .exit-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name ul li:hover .exit-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name ul li:hover .exit-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name ul li:hover .exit-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name ul li:hover .profile-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name ul li:hover .bell-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name ul li:hover .wallet-mobile, .sidebar .test ul li:hover .mobile-topbar .logout-mobile .logout-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name ul li:hover .exit-mobile { fill: #fff; }
 
-.sidebar .test ul a {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: #999999;
-  line-height: 50px;
-  text-decoration: none;
-  padding-left: 5px;
-}
+.sidebar .test ul a { font-size: 14px; font-family: "Roboto", sans-serif; color: #999999; line-height: 50px; text-decoration: none; padding-left: 5px; }
 
-.sidebar .test .logo {
-  margin-top: 15px;
-  margin-left: 20px;
-}
+.sidebar .test .logo { margin-top: 15px; margin-left: 20px; }
 
-.sidebar .test .linkimg, .sidebar .test .mobile-topbar .user-mobile .profile-name .profile-mobile,
-.sidebar .test .mobile-topbar .user-mobile .profile-name .bell-mobile,
-.sidebar .test .mobile-topbar .user-mobile .profile-name .wallet-mobile,
-.sidebar .test .mobile-topbar .user-mobile .profile-name .exit-mobile,
-.sidebar .test .mobile-topbar .user-mobile .notification-name .profile-mobile,
-.sidebar .test .mobile-topbar .user-mobile .notification-name .bell-mobile,
-.sidebar .test .mobile-topbar .user-mobile .notification-name .wallet-mobile,
-.sidebar .test .mobile-topbar .user-mobile .notification-name .exit-mobile,
-.sidebar .test .mobile-topbar .user-mobile .cash-name .profile-mobile,
-.sidebar .test .mobile-topbar .user-mobile .cash-name .bell-mobile,
-.sidebar .test .mobile-topbar .user-mobile .cash-name .wallet-mobile,
-.sidebar .test .mobile-topbar .user-mobile .cash-name .exit-mobile,
-.sidebar .test .mobile-topbar .user-mobile .logout-name .profile-mobile,
-.sidebar .test .mobile-topbar .user-mobile .logout-name .bell-mobile,
-.sidebar .test .mobile-topbar .user-mobile .logout-name .wallet-mobile,
-.sidebar .test .mobile-topbar .user-mobile .logout-name .exit-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .profile-name .profile-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .profile-name .bell-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .profile-name .wallet-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .profile-name .exit-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .notification-name .profile-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .notification-name .bell-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .notification-name .wallet-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .notification-name .exit-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .cash-name .profile-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .cash-name .bell-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .cash-name .wallet-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .cash-name .exit-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .logout-name .profile-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .logout-name .bell-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .logout-name .wallet-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .logout-name .exit-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .profile-name .profile-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .profile-name .bell-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .profile-name .wallet-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .profile-name .exit-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .notification-name .profile-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .notification-name .bell-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .notification-name .wallet-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .notification-name .exit-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .cash-name .profile-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .cash-name .bell-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .cash-name .wallet-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .cash-name .exit-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .logout-name .profile-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .logout-name .bell-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .logout-name .wallet-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .logout-name .exit-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .profile-name .profile-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .profile-name .bell-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .profile-name .wallet-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .profile-name .exit-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .notification-name .profile-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .notification-name .bell-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .notification-name .wallet-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .notification-name .exit-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .cash-name .profile-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .cash-name .bell-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .cash-name .wallet-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .cash-name .exit-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .logout-name .profile-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .logout-name .bell-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .logout-name .wallet-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .logout-name .exit-mobile {
-  width: 20px;
-  height: 20px;
-  fill: #818181;
-  position: relative;
-  top: 4px;
-}
+.sidebar .test .linkimg, .sidebar .test .mobile-topbar .user-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name .exit-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name .bell-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name .wallet-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name .exit-mobile { width: 20px; height: 20px; fill: #818181; position: relative; top: 4px; }
 
-.sidebar .test .meneger {
-  border-bottom: 1px solid #333333;
-  padding-bottom: 10px;
-}
+.sidebar .test .meneger { border-bottom: 1px solid #333333; padding-bottom: 10px; }
 
-.sidebar .test .meneger h1 {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  color: #999999;
-  padding-left: 20px;
-  margin-bottom: 20px;
-}
+.sidebar .test .meneger h1 { font-size: 14px; font-family: "Roboto", sans-serif; font-weight: 400; color: #999999; padding-left: 20px; margin-bottom: 20px; }
 
-.sidebar .test .meneger P {
-  color: #83a3b9;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  padding-left: 20px;
-}
+.sidebar .test .meneger P { color: #83a3b9; font-size: 14px; font-family: "Roboto", sans-serif; padding-left: 20px; }
 
-.sidebar .test .meneger .avatar {
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 20px;
-}
+.sidebar .test .meneger .avatar { display: -ms-flexbox; display: flex; padding-left: 20px; }
 
-.sidebar .test .meneger .avatar p {
-  padding-left: 15px;
-}
+.sidebar .test .meneger .avatar p { padding-left: 15px; }
 
-.sidebar .test .mobile-topbar {
-  border-top: 1px solid #333333;
-  display: none;
-  margin-top: 20px;
-}
+.sidebar .test .mobile-topbar { border-top: 1px solid #333333; display: none; margin-top: 20px; }
 
-.sidebar .test .mobile-topbar .user-mobile,
-.sidebar .test .mobile-topbar .notification-mobile,
-.sidebar .test .mobile-topbar .cash-mobile,
-.sidebar .test .mobile-topbar .logout-mobile {
-  border-bottom: 1px solid #333333;
-}
+.sidebar .test .mobile-topbar .user-mobile, .sidebar .test .mobile-topbar .notification-mobile, .sidebar .test .mobile-topbar .cash-mobile, .sidebar .test .mobile-topbar .logout-mobile { border-bottom: 1px solid #333333; }
 
-.sidebar .test .mobile-topbar .user-mobile h1,
-.sidebar .test .mobile-topbar .notification-mobile h1,
-.sidebar .test .mobile-topbar .cash-mobile h1,
-.sidebar .test .mobile-topbar .logout-mobile h1 {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: #999999;
-  padding-left: 20px;
-  margin-bottom: 10px;
-}
+.sidebar .test .mobile-topbar .user-mobile h1, .sidebar .test .mobile-topbar .notification-mobile h1, .sidebar .test .mobile-topbar .cash-mobile h1, .sidebar .test .mobile-topbar .logout-mobile h1 { font-size: 14px; font-family: "Roboto", sans-serif; color: #999999; padding-left: 20px; margin-bottom: 10px; }
 
-.sidebar .test .mobile-topbar .user-mobile .profile-name,
-.sidebar .test .mobile-topbar .user-mobile .notification-name,
-.sidebar .test .mobile-topbar .user-mobile .cash-name,
-.sidebar .test .mobile-topbar .user-mobile .logout-name,
-.sidebar .test .mobile-topbar .notification-mobile .profile-name,
-.sidebar .test .mobile-topbar .notification-mobile .notification-name,
-.sidebar .test .mobile-topbar .notification-mobile .cash-name,
-.sidebar .test .mobile-topbar .notification-mobile .logout-name,
-.sidebar .test .mobile-topbar .cash-mobile .profile-name,
-.sidebar .test .mobile-topbar .cash-mobile .notification-name,
-.sidebar .test .mobile-topbar .cash-mobile .cash-name,
-.sidebar .test .mobile-topbar .cash-mobile .logout-name,
-.sidebar .test .mobile-topbar .logout-mobile .profile-name,
-.sidebar .test .mobile-topbar .logout-mobile .notification-name,
-.sidebar .test .mobile-topbar .logout-mobile .cash-name,
-.sidebar .test .mobile-topbar .logout-mobile .logout-name {
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding-left: 20px;
-}
+.sidebar .test .mobile-topbar .user-mobile .profile-name, .sidebar .test .mobile-topbar .user-mobile .notification-name, .sidebar .test .mobile-topbar .user-mobile .cash-name, .sidebar .test .mobile-topbar .user-mobile .logout-name, .sidebar .test .mobile-topbar .notification-mobile .profile-name, .sidebar .test .mobile-topbar .notification-mobile .notification-name, .sidebar .test .mobile-topbar .notification-mobile .cash-name, .sidebar .test .mobile-topbar .notification-mobile .logout-name, .sidebar .test .mobile-topbar .cash-mobile .profile-name, .sidebar .test .mobile-topbar .cash-mobile .notification-name, .sidebar .test .mobile-topbar .cash-mobile .cash-name, .sidebar .test .mobile-topbar .cash-mobile .logout-name, .sidebar .test .mobile-topbar .logout-mobile .profile-name, .sidebar .test .mobile-topbar .logout-mobile .notification-name, .sidebar .test .mobile-topbar .logout-mobile .cash-name, .sidebar .test .mobile-topbar .logout-mobile .logout-name { display: -ms-inline-flexbox; display: inline-flex; padding-left: 20px; }
 
-.sidebar .test .mobile-topbar .user-mobile .profile-name .user-name-mobile,
-.sidebar .test .mobile-topbar .user-mobile .notification-name .user-name-mobile,
-.sidebar .test .mobile-topbar .user-mobile .cash-name .user-name-mobile,
-.sidebar .test .mobile-topbar .user-mobile .logout-name .user-name-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .profile-name .user-name-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .notification-name .user-name-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .cash-name .user-name-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .logout-name .user-name-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .profile-name .user-name-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .notification-name .user-name-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .cash-name .user-name-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .logout-name .user-name-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .profile-name .user-name-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .notification-name .user-name-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .cash-name .user-name-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .logout-name .user-name-mobile {
-  margin-right: 20px;
-  margin-left: 5px;
-  font-size: 13px;
-  font-family: "Roboto", sans-serif;
-  color: #83a3b9;
-}
+.sidebar .test .mobile-topbar .user-mobile .profile-name .user-name-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name .user-name-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name .user-name-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name .user-name-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name .user-name-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name .user-name-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name .user-name-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name .user-name-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name .user-name-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name .user-name-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name .user-name-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name .user-name-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name .user-name-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name .user-name-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name .user-name-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name .user-name-mobile { margin-right: 20px; margin-left: 5px; font-size: 13px; font-family: "Roboto", sans-serif; color: #83a3b9; }
 
-.sidebar .test .mobile-topbar .user-mobile .profile-name .profile-mobile,
-.sidebar .test .mobile-topbar .user-mobile .notification-name .profile-mobile,
-.sidebar .test .mobile-topbar .user-mobile .cash-name .profile-mobile,
-.sidebar .test .mobile-topbar .user-mobile .logout-name .profile-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .profile-name .profile-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .notification-name .profile-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .cash-name .profile-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .logout-name .profile-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .profile-name .profile-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .notification-name .profile-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .cash-name .profile-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .logout-name .profile-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .profile-name .profile-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .notification-name .profile-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .cash-name .profile-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .logout-name .profile-mobile {
-  margin-top: 7px;
-}
+.sidebar .test .mobile-topbar .user-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .user-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .profile-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name .profile-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name .profile-mobile { margin-top: 7px; }
 
-.sidebar .test .mobile-topbar .cash-mobile .cash-name-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .notification-name-mobile,
-.sidebar .test .mobile-topbar .cash-mobile .logout-name-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .cash-name-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .notification-name-mobile,
-.sidebar .test .mobile-topbar .notification-mobile .logout-name-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .cash-name-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .notification-name-mobile,
-.sidebar .test .mobile-topbar .logout-mobile .logout-name-mobile {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: #9c9c9c;
-  margin: 10px;
-  position: relative;
-  bottom: 6px;
-}
+.sidebar .test .mobile-topbar .cash-mobile .cash-name-mobile, .sidebar .test .mobile-topbar .cash-mobile .notification-name-mobile, .sidebar .test .mobile-topbar .cash-mobile .logout-name-mobile, .sidebar .test .mobile-topbar .notification-mobile .cash-name-mobile, .sidebar .test .mobile-topbar .notification-mobile .notification-name-mobile, .sidebar .test .mobile-topbar .notification-mobile .logout-name-mobile, .sidebar .test .mobile-topbar .logout-mobile .cash-name-mobile, .sidebar .test .mobile-topbar .logout-mobile .notification-name-mobile, .sidebar .test .mobile-topbar .logout-mobile .logout-name-mobile { font-size: 14px; font-family: "Roboto", sans-serif; color: #9c9c9c; margin: 10px; position: relative; bottom: 6px; }
 
-@media (max-width: 992px) {
-  .sidebar {
-    width: 50px;
-  }
-  .sidebar .test .navbutton {
-    display: block;
-    margin-right: 0;
-    margin-bottom: 0;
-  }
-  .sidebar .test ul {
-    border: none;
-  }
-  .sidebar .test .logo {
-    display: none;
-  }
-  .sidebar .test a {
-    display: none;
-  }
-  .sidebar .test .meneger {
-    display: none;
-  }
-  .sidebar .test svg {
-    display: none;
-  }
-}
+@media (max-width: 992px) { .sidebar { width: 50px; }
+  .sidebar .test .navbutton { display: block; margin-right: 0; margin-bottom: 0; }
+  .sidebar .test ul { border: none; }
+  .sidebar .test .logo { display: none; }
+  .sidebar .test a { display: none; }
+  .sidebar .test .meneger { display: none; }
+  .sidebar .test svg { display: none; } }
 
-.sidebar.jsss {
-  width: 200px;
-  z-index: 999;
-}
+.sidebar.jsss { width: 200px; z-index: 999; }
 
-.sidebar.jsss .test .navbutton {
-  display: block;
-  margin-right: 0;
-  margin-bottom: 0;
-}
+.sidebar.jsss .test .navbutton { display: block; margin-right: 0; margin-bottom: 0; }
 
-.sidebar.jsss .test ul {
-  border-bottom: 1px solid #333333;
-}
+.sidebar.jsss .test ul { border-bottom: 1px solid #333333; }
 
-.sidebar.jsss .test .logo {
-  display: initial;
-}
+.sidebar.jsss .test .logo { display: initial; }
 
-.sidebar.jsss .test a {
-  display: initial;
-}
+.sidebar.jsss .test a { display: initial; }
 
-.sidebar.jsss .test .meneger {
-  display: initial;
-}
+.sidebar.jsss .test .meneger { display: initial; }
 
-.sidebar.jsss .test svg {
-  display: initial;
-}
+.sidebar.jsss .test svg { display: initial; }
 
-.sidebar.jsss .test .mobile-topbar {
-  display: block;
-}
+.sidebar.jsss .test .mobile-topbar { display: block; }
 
 /* Colors */
 /* Font sizes */
 /* Fonts */
-.general-statistic {
-  margin-left: 300px;
-  margin-right: 70px;
-  background-color: #fff;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-}
+.general-statistic { margin-left: 300px; margin-right: 70px; background-color: #fff; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); }
 
-.general-statistic .general-title {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  color: #ACACAC;
-  padding: 20px;
-  border-bottom: 1px solid #E3E3E3;
-}
+.general-statistic .general-title { font-size: 16px; font-family: "Roboto", sans-serif; font-weight: 700; color: #ACACAC; padding: 20px; border-bottom: 1px solid #E3E3E3; }
 
-.general-statistic .calendar {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-  border-bottom: 1px solid #E3E3E3;
-}
+.general-statistic .calendar { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; border-bottom: 1px solid #E3E3E3; }
 
-.general-statistic .calendar .date-period {
-  border: 1px solid #E3E3E3;
-  padding: 7px;
-}
+.general-statistic .calendar .date-period { border: 1px solid #E3E3E3; padding: 7px; }
 
-.general-statistic .calendar .date-period input {
-  border: none;
-  text-align: left;
-  padding-left: 10px;
-  width: 150px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-}
+.general-statistic .calendar .date-period input { border: none; text-align: left; padding-left: 10px; width: 150px; font-family: "Roboto", sans-serif; font-weight: 400; }
 
-.general-statistic .calendar .date-period input:nth-of-type(2) {
-  border-left: 1px solid #E3E3E3;
-}
+.general-statistic .calendar .date-period input:nth-of-type(2) { border-left: 1px solid #E3E3E3; }
 
-.general-statistic .calendar .date-period .calendaricon {
-  width: 12px;
-  height: 12px;
-  fill: #9c9c9c;
-  margin-right: 5px;
-}
+.general-statistic .calendar .date-period .calendaricon { width: 12px; height: 12px; fill: #9c9c9c; margin-right: 5px; }
 
-.general-statistic .calendar .date-button {
-  border-radius: 3px;
-  border: 2px solid #f58220;
-  background-color: #f58220;
-  width: 40px;
-  height: 40px;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 20px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
+.general-statistic .calendar .date-button { border-radius: 3px; border: 2px solid #f58220; background-color: #f58220; width: 40px; height: 40px; display: -ms-flexbox; display: flex; margin-left: 20px; margin-bottom: 50px; margin-top: 50px; }
 
-.general-statistic .calendar .date-button:hover {
-  border: 2px solid #ffa200;
-  background-color: #ffa200;
-}
+.general-statistic .calendar .date-button:hover { border: 2px solid #ffa200; background-color: #ffa200; }
 
-.general-statistic .calendar .date-button .refresh {
-  width: 20px;
-  height: 20px;
-  fill: #fff;
-}
+.general-statistic .calendar .date-button .refresh { width: 20px; height: 20px; fill: #fff; }
 
-.general-statistic .general-stat-col .header {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  margin: 20px;
-  border-bottom: 1px solid #E3E3E3;
-}
+.general-statistic .general-stat-col .header { display: -ms-flexbox; display: flex; -ms-flex-pack: justify; justify-content: space-between; margin: 20px; border-bottom: 1px solid #E3E3E3; }
 
-.general-statistic .general-stat-col .header h2 {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  color: #a6a6a6;
-  margin-bottom: 5px;
-  font-weight: 700;
-}
+.general-statistic .general-stat-col .header h2 { font-size: 16px; font-family: "Roboto", sans-serif; color: #a6a6a6; margin-bottom: 5px; font-weight: 700; }
 
-.general-statistic .general-stat-col .header p {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  color: #333333;
-  margin-bottom: 5px;
-}
+.general-statistic .general-stat-col .header p { font-size: 16px; font-family: "Roboto", sans-serif; color: #333333; margin-bottom: 5px; }
 
-.general-statistic .earnings {
-  text-align: center;
-}
+.general-statistic .earnings { text-align: center; }
 
-.general-statistic .earnings .earnings-header {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  color: #a6a6a6;
-  margin-top: 70px;
-  text-align: left;
-  font-weight: 700;
-}
+.general-statistic .earnings .earnings-header { font-size: 16px; font-family: "Roboto", sans-serif; font-weight: 400; color: #a6a6a6; margin-top: 70px; text-align: left; font-weight: 700; }
 
-.general-statistic .earnings .signups {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  padding: 10px;
-  margin-top: 30px;
-}
+.general-statistic .earnings .signups { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; padding: 10px; margin-top: 30px; }
 
-.general-statistic .earnings .signups:nth-of-type(3) {
-  margin-right: 0;
-}
+.general-statistic .earnings .signups:nth-of-type(3) { margin-right: 0; }
 
-.general-statistic .earnings .signups .blue-dot, .general-statistic .earnings .signups .orange-dot, .general-statistic .earnings .signups .green-dot {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #80bfca;
-}
+.general-statistic .earnings .signups .blue-dot, .general-statistic .earnings .signups .orange-dot, .general-statistic .earnings .signups .green-dot { width: 20px; height: 20px; border-radius: 50%; background-color: #80bfca; }
 
-.general-statistic .earnings .signups .orange-dot {
-  background-color: #FF9A38;
-}
+.general-statistic .earnings .signups .orange-dot { background-color: #FF9A38; }
 
-.general-statistic .earnings .signups .green-dot {
-  background-color: #59B66D;
-}
+.general-statistic .earnings .signups .green-dot { background-color: #59B66D; }
 
-.general-statistic .earnings .signups .signups-p {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  color: #a6a6a6;
-  margin: 2px 0;
-  padding-left: 10px;
-}
+.general-statistic .earnings .signups .signups-p { font-size: 16px; font-family: "Roboto", sans-serif; color: #a6a6a6; margin: 2px 0; padding-left: 10px; }
 
-.general-statistic .earnings .signups:hover {
-  background-color: #f3f3f1;
-  cursor: pointer;
-}
+.general-statistic .earnings .signups:hover { background-color: #f3f3f1; cursor: pointer; }
 
-.general-statistic .earnings .graph {
-  margin: 50px 0;
-  max-width: 100%;
-  height: auto;
-}
+.general-statistic .earnings .graph { margin: 50px 0; max-width: 100%; height: auto; }
 
-@media (max-width: 992px) {
-  .general-statistic {
-    margin-left: 100px;
-    margin-right: 50px;
-  }
-}
+@media (max-width: 992px) { .general-statistic { margin-left: 100px; margin-right: 50px; } }
 
-@media (max-width: 576px) {
-  .general-statistic {
-    margin-left: 60px;
-    margin-right: 10px;
-  }
-}
+@media (max-width: 576px) { .general-statistic { margin-left: 60px; margin-right: 10px; } }
 
-@media (max-width: 471px) {
-  .general-statistic .calendar {
-    display: block;
-  }
-  .general-statistic .calendar .date-period {
-    max-width: 150px;
-    margin: 0 auto;
-  }
-  .general-statistic .calendar .date-period input {
-    width: 100px;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-  }
-  .general-statistic .calendar .date-period input:nth-of-type(2) {
-    border-left: none;
-  }
-  .general-statistic .calendar .date-period .calendaricon {
-    margin-left: 60px;
-    margin-top: 10px;
-  }
-  .general-statistic .calendar .date-button {
-    margin: 20px auto;
-  }
-}
+@media (max-width: 471px) { .general-statistic .calendar { display: block; }
+  .general-statistic .calendar .date-period { max-width: 150px; margin: 0 auto; }
+  .general-statistic .calendar .date-period input { width: 100px; margin: 0 auto; display: block; text-align: center; }
+  .general-statistic .calendar .date-period input:nth-of-type(2) { border-left: none; }
+  .general-statistic .calendar .date-period .calendaricon { margin-left: 60px; margin-top: 10px; }
+  .general-statistic .calendar .date-button { margin: 20px auto; } }
 
 /* Colors */
 /* Font sizes */
 /* Fonts */
-.links {
-  margin-left: 300px;
-  margin-right: 70px;
-  background-color: #fff;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-}
+.links { margin-left: 300px; margin-right: 70px; background-color: #fff; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); }
 
-.links .links-title {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  color: #ACACAC;
-  padding: 20px;
-  border-bottom: 1px solid #E3E3E3;
-}
+.links .links-title { font-size: 16px; font-family: "Roboto", sans-serif; font-weight: 700; color: #ACACAC; padding: 20px; border-bottom: 1px solid #E3E3E3; }
 
-.links .add-new {
-  border-radius: 3px;
-  background-color: #f58220;
-  border: 2px solid #f58220;
-  padding: 10px;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  color: white;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 50px auto;
-}
+.links .add-new { border-radius: 3px; background-color: #f58220; border: 2px solid #f58220; padding: 10px; font-size: 18px; font-family: "Roboto", sans-serif; font-weight: 300; color: white; display: -ms-flexbox; display: flex; margin: 50px auto; }
 
-.links .add-new:hover {
-  background-color: #ffa200;
-  border: 2px solid #ffa200;
-}
+.links .add-new:hover { background-color: #ffa200; border: 2px solid #ffa200; }
 
-.links .sitename {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  color: #a6a6a6;
-}
+.links .sitename { font-size: 16px; font-family: "Roboto", sans-serif; font-weight: 700; color: #a6a6a6; }
 
-.links .linkname {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  color: #56819f;
-  padding-left: 150px;
-}
+.links .linkname { font-size: 16px; font-family: "Roboto", sans-serif; color: #56819f; padding-left: 150px; }
 
-.links .icons .link, .links .icons .trash {
-  width: 20px;
-  height: 20px;
-  fill: #F5882B;
-  display: none;
-}
+.links .icons .link, .links .icons .trash { width: 20px; height: 20px; fill: #F5882B; display: none; }
 
-.links .icons .trash {
-  margin-left: 10px;
-  bottom: 2px;
-  fill: #9B9B9B;
-  display: none;
-}
+.links .icons .trash { margin-left: 10px; bottom: 2px; fill: #9B9B9B; display: none; }
 
-.links tr:hover .icons .link, .links tr:hover .icons .trash {
-  display: initial;
-}
+.links tr:hover .icons .link, .links tr:hover .icons .trash { display: initial; }
 
-.links tr:hover .icons .trash {
-  display: initial;
-}
+.links tr:hover .icons .trash { display: initial; }
 
-.links .col-xs-12 {
-  height: 550px;
-}
+.links .col-xs-12 { height: 550px; }
 
-@media (max-width: 992px) {
-  .links {
-    margin-left: 100px;
-    margin-right: 50px;
-  }
-  .links .linkname {
-    padding-left: unset;
-  }
-}
+@media (max-width: 992px) { .links { margin-left: 100px; margin-right: 50px; }
+  .links .linkname { padding-left: unset; } }
 
-@media (max-width: 639px) {
-  .links .col-xs-12 {
-    height: 1330px;
-  }
-}
+@media (max-width: 639px) { .links .col-xs-12 { height: 1330px; } }
 
-@media (max-width: 576px) {
-  .links {
-    margin-left: 60px;
-    margin-right: 10px;
-  }
-  .links .linkname {
-    padding-left: unset;
-  }
-}
+@media (max-width: 576px) { .links { margin-left: 60px; margin-right: 10px; }
+  .links .linkname { padding-left: unset; } }
 
 /* Colors */
 /* Font sizes */
 /* Fonts */
-.personaldata {
-  padding-bottom: 20px;
-}
+.personaldata { padding-bottom: 20px; }
 
-.personaldata form .field {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-}
+.personaldata form .field { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; }
 
-.personaldata form .field label {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  color: #a6a6a6;
-  display: inline-block;
-  width: 200px;
-  margin-top: 20px;
-}
+.personaldata form .field label { font-size: 16px; font-family: "Roboto", sans-serif; font-weight: 700; color: #a6a6a6; display: inline-block; width: 200px; margin-top: 20px; }
 
-.personaldata form .field input {
-  border: 1px solid #E3E3E3;
-  display: inline-block;
-  padding: 10px;
-  margin-top: 10px;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-}
+.personaldata form .field input { border: 1px solid #E3E3E3; display: inline-block; padding: 10px; margin-top: 10px; font-family: "Roboto", sans-serif; font-size: 14px; }
 
-.personaldata form .field span {
-  display: inline-block;
-}
+.personaldata form .field span { display: inline-block; }
 
-.personaldata form .border-bottom {
-  border-bottom: 1px solid #E3E3E3;
-}
+.personaldata form .border-bottom { border-bottom: 1px solid #E3E3E3; }
 
-.personaldata form .border-bottom input {
-  margin-bottom: 20px;
-}
+.personaldata form .border-bottom input { margin-bottom: 20px; }
 
-.personaldata form .margin-top {
-  margin-top: 10px;
-}
+.personaldata form .margin-top { margin-top: 10px; }
 
-.personaldata form .save {
-  border-radius: 3px;
-  background-color: #f58220;
-  border: 2px solid #f58220;
-  padding: 10px 20px;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  color: white;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 20px auto 0;
-}
+.personaldata form .save { border-radius: 3px; background-color: #f58220; border: 2px solid #f58220; padding: 10px 20px; font-size: 18px; font-family: "Roboto", sans-serif; color: white; display: -ms-flexbox; display: flex; margin: 20px auto 0; }
 
-.wrong {
-  border: 2px solid red !important;
-}
+.wrong { border: 2px solid red !important; }
 
-.good {
-  border: 2px solid green !important;
-}
+.good { border: 2px solid green !important; }
 
-@media (max-width: 471px) {
-  .personaldata form .field {
-    display: block;
-    text-align: center;
-  }
-}
+@media (max-width: 471px) { .personaldata form .field { display: block; text-align: center; } }
 
-body {
-  background-color: #F3F3F0;
-}
+body { background-color: #F3F3F0; }
 
-p {
-  margin: 1em 0;
-}
-/*# sourceMappingURL=style.css.map */
+p { margin: 1em 0; }
