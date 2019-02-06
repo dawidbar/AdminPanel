@@ -1169,7 +1169,7 @@ template {
 .general-statistic .general-title {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: #ACACAC;
   padding: 20px;
   border-bottom: 1px solid #E3E3E3;
@@ -1234,20 +1234,6 @@ template {
   fill: #fff;
 }
 
-.general-statistic .general-stat-col h2 {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  color: #a6a6a6;
-  margin-bottom: 5px;
-}
-
-.general-statistic .general-stat-col p {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  color: #333333;
-  margin-bottom: 5px;
-}
-
 .general-statistic .general-stat-col .header {
   display: -ms-flexbox;
   display: flex;
@@ -1255,6 +1241,21 @@ template {
       justify-content: space-between;
   margin: 20px;
   border-bottom: 1px solid #E3E3E3;
+}
+
+.general-statistic .general-stat-col .header h2 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #a6a6a6;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.general-statistic .general-stat-col .header p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  margin-bottom: 5px;
 }
 
 .general-statistic .earnings {
@@ -1268,6 +1269,7 @@ template {
   color: #a6a6a6;
   margin-top: 70px;
   text-align: left;
+  font-weight: 700;
 }
 
 .general-statistic .earnings .signups {
@@ -1370,7 +1372,7 @@ template {
 .links .links-title {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: #ACACAC;
   padding: 20px;
   border-bottom: 1px solid #E3E3E3;
@@ -1383,6 +1385,7 @@ template {
   padding: 10px;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
+  font-weight: 300;
   color: white;
   display: -ms-flexbox;
   display: flex;
@@ -1411,14 +1414,27 @@ template {
 .links .icons .link, .links .icons .trash {
   width: 20px;
   height: 20px;
-  position: relative;
   fill: #F5882B;
+  display: none;
 }
 
 .links .icons .trash {
   margin-left: 10px;
   bottom: 2px;
   fill: #9B9B9B;
+  display: none;
+}
+
+.links tr:hover .icons .link, .links tr:hover .icons .trash {
+  display: initial;
+}
+
+.links tr:hover .icons .trash {
+  display: initial;
+}
+
+.links .col-xs-12 {
+  height: 550px;
 }
 
 @media (max-width: 992px) {
@@ -1428,6 +1444,12 @@ template {
   }
   .links .linkname {
     padding-left: unset;
+  }
+}
+
+@media (max-width: 639px) {
+  .links .col-xs-12 {
+    height: 1330px;
   }
 }
 

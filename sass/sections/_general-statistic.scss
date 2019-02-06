@@ -9,7 +9,7 @@
     .general-title {
         font-size: 16px;
         font-family: $main-font;
-        font-weight: 400;
+        font-weight: 700;
         color: #ACACAC;
         padding: 20px;
         border-bottom: 1px solid $border-line;
@@ -72,25 +72,24 @@
     }
 
     .general-stat-col {
-        h2 {
-            font-size: 16px;
-            font-family: $main-font;
-            color: rgb(166, 166, 166);
-            margin-bottom: 5px;
-        }
-
-        p {
-            font-size: 16px;
-            font-family: $main-font;
-            color: rgb(51, 51, 51);
-            margin-bottom: 5px;
-        }
-
         .header {
             display: flex;
             justify-content: space-between;
             margin: 20px;
             border-bottom: 1px solid $border-line;
+            h2 {
+                font-size: 16px;
+                font-family: $main-font;
+                color: rgb(166, 166, 166);
+                margin-bottom: 5px;
+                font-weight: 700;
+            }
+            p {
+                font-size: 16px;
+                font-family: $main-font;
+                color: rgb(51, 51, 51);
+                margin-bottom: 5px;
+            }
         }
     }
 
@@ -104,6 +103,7 @@
             color: rgb(166, 166, 166);
             margin-top: 70px;
             text-align: left;
+            font-weight: 700;
         }
 
         .signups {
