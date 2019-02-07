@@ -13,63 +13,6 @@
         padding: 20px;
         border-bottom: 1px solid $border-line;
     }
-
-    .calendar {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-bottom: 1px solid $border-line;
-
-        .date-period {
-            border: 1px solid $border-line;
-            padding: 7px;
-
-            input {
-                border: none;
-                text-align: left;
-                padding-left: 10px;
-                width: 150px;
-                font-family: $main-font;
-                font-weight: 400;
-
-                &:nth-of-type(2) {
-                    border-left: 1px solid $border-line;
-                }
-            }
-
-            .calendaricon {
-                width: 12px;
-                height: 12px;
-                fill: #9c9c9c;
-                margin-right: 5px;
-            }
-        }
-
-        .date-button {
-            border-radius: 3px;
-            border: 2px solid rgb(245, 130, 32);
-            background-color: rgb(245, 130, 32);
-            width: 40px;
-            height: 40px;
-            display: flex;
-            margin-left: 20px;
-            margin-bottom: 50px;
-            margin-top: 50px;
-
-            &:hover {
-                border: 2px solid #ffa200;
-                background-color: #ffa200;
-            }
-
-            .refresh {
-                width: 20px;
-                height: 20px;
-                fill: #fff;
-            }
-        }
-
-    }
-
     .general-stat-col {
         .header {
             display: flex;
@@ -91,7 +34,6 @@
             }
         }
     }
-
     .earnings {
         text-align: center;
 
@@ -103,35 +45,28 @@
             margin-top: 70px;
             text-align: left;
         }
-
         .signups {
             display: flex;
             justify-content: center;
             padding: 10px;
             margin-top: 30px;
-
-
             &:nth-of-type(3) {
                 margin-right: 0;
             }
-
             .blue-dot {
                 width: 20px;
                 height: 20px;
                 border-radius: 50%;
                 background-color: #80bfca;
             }
-
             .orange-dot {
                 @extend .blue-dot;
                 background-color: #FF9A38;
             }
-
             .green-dot {
                 @extend .blue-dot;
                 background-color: #59B66D;
             }
-
             .signups-p {
                 font-size: 16px;
                 font-family: $main-font;
@@ -139,7 +74,6 @@
                 margin: 2px 0;
                 padding-left: 10px;
             }
-
             &:hover {
                 background-color: #f3f3f1;
                 cursor: pointer;
@@ -149,6 +83,55 @@
             margin: 50px 0;
             max-width: 100%;
             height: auto;
+        }
+    }
+}
+.calendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid $border-line;
+    .date-period {
+        border: 1px solid $border-line;
+        padding: 7px;
+
+        input {
+            border: none;
+            text-align: left;
+            padding-left: 10px;
+            width: 150px;
+            font-family: $main-font;
+            font-weight: 400;
+
+            &:nth-of-type(2) {
+                border-left: 1px solid $border-line;
+            }
+        }
+        .calendaricon {
+            width: 12px;
+            height: 12px;
+            fill: #9c9c9c;
+            margin-right: 5px;
+        }
+    }
+    .date-button {
+        border-radius: 3px;
+        border: 2px solid rgb(245, 130, 32);
+        background-color: rgb(245, 130, 32);
+        width: 40px;
+        height: 40px;
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        &:hover {
+            border: 2px solid #ffa200;
+            background-color: #ffa200;
+        }
+        .refresh {
+            width: 20px;
+            height: 20px;
+            fill: #fff;
         }
     }
 }
@@ -165,29 +148,27 @@
     }
 }
 @media (max-width: 471px) {
-    .general-statistic {
-        .calendar {
-            display: block;
-            .date-period {
-                max-width: 150px;
+    .calendar {
+        display: block;
+        .date-period {
+            max-width: 150px;
+            margin: 0 auto;
+            input {
+                width: 100px;
                 margin: 0 auto;
-                input {
-                    width: 100px;
-                    margin: 0 auto;
-                    display: block;
-                    text-align: center;
-                    &:nth-of-type(2) {
-                        border-left: none;
-                    }
-                }
-                .calendaricon {
-                    margin-left: 60px;
-                    margin-top: 10px;
+                display: block;
+                text-align: center;
+                &:nth-of-type(2) {
+                    border-left: none;
                 }
             }
-            .date-button {
-                margin: 20px auto;
+            .calendaricon {
+                margin-left: 60px;
+                margin-top: 10px;
             }
+        }
+        .date-button {
+            margin: 20px auto;
         }
     }
 }

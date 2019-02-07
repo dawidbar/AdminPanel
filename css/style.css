@@ -626,7 +626,7 @@ template {
   border-bottom: 1px solid #E3E3E3;
 }
 
-.topbar .logout {
+.logout {
   border-right: 1px solid #E3E3E3;
   height: 100%;
   float: right;
@@ -638,18 +638,18 @@ template {
       justify-content: center;
 }
 
-.topbar .logout:hover {
+.logout:hover {
   background-color: #E3E3E3;
 }
 
-.topbar .logout .quit {
+.logout .quit {
   width: 20px;
   height: 20px;
   margin: 20px;
   fill: #9B9B9B;
 }
 
-.topbar .user {
+.user {
   border-right: 1px solid #E3E3E3;
   height: 100%;
   float: right;
@@ -661,11 +661,11 @@ template {
       justify-content: center;
 }
 
-.topbar .user:hover {
+.user:hover {
   background-color: #E3E3E3;
 }
 
-.topbar .user .user-name {
+.user .user-name {
   margin-right: 20px;
   margin-left: 5px;
   font-size: 13px;
@@ -673,14 +673,14 @@ template {
   color: #83a3b9;
 }
 
-.topbar .user .profile {
+.user .profile {
   width: 20px;
   height: 20px;
   margin-left: 20px;
   fill: #9B9B9B;
 }
 
-.topbar .notification {
+.notification {
   border-right: 1px solid #E3E3E3;
   height: 100%;
   float: right;
@@ -692,18 +692,18 @@ template {
       justify-content: center;
 }
 
-.topbar .notification:hover {
+.notification:hover {
   background-color: #E3E3E3;
 }
 
-.topbar .notification .bell {
+.notification .bell {
   width: 20px;
   height: 20px;
   margin: 20px;
   fill: #9B9B9B;
 }
 
-.topbar .money {
+.money {
   border-right: 1px solid #E3E3E3;
   border-left: 1px solid #E3E3E3;
   height: 100%;
@@ -716,25 +716,25 @@ template {
       justify-content: center;
 }
 
-.topbar .money:hover {
+.money:hover {
   background-color: #E3E3E3;
 }
 
-.topbar .money .arrow {
+.money .arrow {
   margin-right: 20px;
   height: 10px;
   fill: #9B9B9B;
   width: 10px;
 }
 
-.topbar .money .cash {
+.money .cash {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   color: #9c9c9c;
   margin: 10px;
 }
 
-.topbar .money .wallet {
+.money .wallet {
   width: 20px;
   height: 20px;
   margin-left: 20px;
@@ -1174,65 +1174,6 @@ template {
   border-bottom: 1px solid #E3E3E3;
 }
 
-.general-statistic .calendar {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-  border-bottom: 1px solid #E3E3E3;
-}
-
-.general-statistic .calendar .date-period {
-  border: 1px solid #E3E3E3;
-  padding: 7px;
-}
-
-.general-statistic .calendar .date-period input {
-  border: none;
-  text-align: left;
-  padding-left: 10px;
-  width: 150px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-}
-
-.general-statistic .calendar .date-period input:nth-of-type(2) {
-  border-left: 1px solid #E3E3E3;
-}
-
-.general-statistic .calendar .date-period .calendaricon {
-  width: 12px;
-  height: 12px;
-  fill: #9c9c9c;
-  margin-right: 5px;
-}
-
-.general-statistic .calendar .date-button {
-  border-radius: 3px;
-  border: 2px solid #f58220;
-  background-color: #f58220;
-  width: 40px;
-  height: 40px;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 20px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-
-.general-statistic .calendar .date-button:hover {
-  border: 2px solid #ffa200;
-  background-color: #ffa200;
-}
-
-.general-statistic .calendar .date-button .refresh {
-  width: 20px;
-  height: 20px;
-  fill: #fff;
-}
-
 .general-statistic .general-stat-col .header {
   display: -ms-flexbox;
   display: flex;
@@ -1317,6 +1258,65 @@ template {
   height: auto;
 }
 
+.calendar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.calendar .date-period {
+  border: 1px solid #E3E3E3;
+  padding: 7px;
+}
+
+.calendar .date-period input {
+  border: none;
+  text-align: left;
+  padding-left: 10px;
+  width: 150px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.calendar .date-period input:nth-of-type(2) {
+  border-left: 1px solid #E3E3E3;
+}
+
+.calendar .date-period .calendaricon {
+  width: 12px;
+  height: 12px;
+  fill: #9c9c9c;
+  margin-right: 5px;
+}
+
+.calendar .date-button {
+  border-radius: 3px;
+  border: 2px solid #f58220;
+  background-color: #f58220;
+  width: 40px;
+  height: 40px;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.calendar .date-button:hover {
+  border: 2px solid #ffa200;
+  background-color: #ffa200;
+}
+
+.calendar .date-button .refresh {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
 @media (max-width: 992px) {
   .general-statistic {
     margin-left: 100px;
@@ -1332,27 +1332,27 @@ template {
 }
 
 @media (max-width: 471px) {
-  .general-statistic .calendar {
+  .calendar {
     display: block;
   }
-  .general-statistic .calendar .date-period {
+  .calendar .date-period {
     max-width: 150px;
     margin: 0 auto;
   }
-  .general-statistic .calendar .date-period input {
+  .calendar .date-period input {
     width: 100px;
     margin: 0 auto;
     display: block;
     text-align: center;
   }
-  .general-statistic .calendar .date-period input:nth-of-type(2) {
+  .calendar .date-period input:nth-of-type(2) {
     border-left: none;
   }
-  .general-statistic .calendar .date-period .calendaricon {
+  .calendar .date-period .calendaricon {
     margin-left: 60px;
     margin-top: 10px;
   }
-  .general-statistic .calendar .date-button {
+  .calendar .date-button {
     margin: 20px auto;
   }
 }
@@ -1373,25 +1373,6 @@ template {
   color: #ACACAC;
   padding: 20px;
   border-bottom: 1px solid #E3E3E3;
-}
-
-.links .add-new {
-  border-radius: 3px;
-  background-color: #f58220;
-  border: 2px solid #f58220;
-  padding: 10px;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  color: white;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 50px auto;
-}
-
-.links .add-new:hover {
-  background-color: #ffa200;
-  border: 2px solid #ffa200;
 }
 
 .links .sitename {
@@ -1437,6 +1418,25 @@ template {
 
 .links tr:hover .icons .trash {
   visibility: visible;
+}
+
+.add-new {
+  border-radius: 3px;
+  background-color: #f58220;
+  border: 2px solid #f58220;
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: white;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px auto;
+}
+
+.add-new:hover {
+  background-color: #ffa200;
+  border: 2px solid #ffa200;
 }
 
 @media (max-width: 992px) {

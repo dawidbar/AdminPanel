@@ -11,22 +11,6 @@
         padding: 20px;
         border-bottom: 1px solid $border-line;
     }
-    .add-new {
-        border-radius: 3px;
-        background-color: $button-orange;
-        border : 2px solid $button-orange;
-        padding: 10px;
-        font-size: 18px;
-        font-family: $main-font;
-        font-weight: 300;
-        color: rgb(255, 255, 255);   
-        display: flex;
-        margin: 50px auto;
-        &:hover {
-            background-color: $button-hover-orange;
-            border : 2px solid $button-hover-orange;
-        }
-    }
     .sitename {
         font-size: 16px;
         font-family: $main-font;
@@ -72,6 +56,22 @@
                 }
             }
         }
+    }
+}
+.add-new {
+    border-radius: 3px;
+    background-color: $button-orange;
+    border : 2px solid $button-orange;
+    padding: 10px;
+    font-size: 18px;
+    font-family: $main-font;
+    font-weight: 300;
+    color: rgb(255, 255, 255);   
+    display: flex;
+    margin: 50px auto;
+    &:hover {
+        background-color: $button-hover-orange;
+        border : 2px solid $button-hover-orange;
     }
 }
 @media (max-width: 992px) {

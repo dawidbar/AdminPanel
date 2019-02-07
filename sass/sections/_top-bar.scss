@@ -6,6 +6,7 @@
     background-color: $white;
     border-top: 1px solid $border-line;
     border-bottom: 1px solid $border-line;
+}
     .logout {
         border-right: 1px solid $border-line;
         height: 100%;
@@ -96,7 +97,6 @@
             bottom: 2px;
         }
     }
-}
 @media (max-width: 992px) {
     .topbar {
         display: none;
