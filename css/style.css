@@ -618,6 +618,14 @@ template {
 /* Colors */
 /* Font sizes */
 /* Fonts */
+h1 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #ACACAC;
+  padding: 20px;
+}
+
 .topbar {
   width: 100%;
   height: 62px;
@@ -1202,15 +1210,6 @@ template {
   text-align: center;
 }
 
-.general-statistic .earnings .earnings-header {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  color: #a6a6a6;
-  margin-top: 70px;
-  text-align: left;
-}
-
 .general-statistic .earnings .signups {
   display: -ms-flexbox;
   display: flex;
@@ -1317,6 +1316,15 @@ template {
   fill: #fff;
 }
 
+.earnings-header {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #a6a6a6;
+  margin-top: 70px;
+  text-align: left;
+}
+
 @media (max-width: 992px) {
   .general-statistic {
     margin-left: 100px;
@@ -1403,21 +1411,21 @@ template {
   visibility: hidden;
 }
 
-.links tr a {
-  color: #56819f;
-  text-decoration: none;
-}
-
-.links tr a:hover {
-  color: #ffa200;
-}
-
 .links tr:hover .icons .link, .links tr:hover .icons .trash {
   visibility: visible;
 }
 
 .links tr:hover .icons .trash {
   visibility: visible;
+}
+
+a {
+  color: #56819f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffa200;
 }
 
 .add-new {

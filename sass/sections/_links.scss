@@ -39,13 +39,6 @@
         }
     }
     tr {
-        a {
-            color: #56819f;
-            text-decoration: none;
-            &:hover {
-                color: #ffa200;
-            }
-        }
         &:hover {
             .icons {
                 .link {
@@ -56,6 +49,13 @@
                 }
             }
         }
+    }
+}
+a {
+    color: #56819f;
+    text-decoration: none;
+    &:hover {
+        color: #ffa200;
     }
 }
 .add-new {
